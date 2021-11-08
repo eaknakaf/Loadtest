@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1631097084690,1282,gettoken,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket operation on nonsocket: connect,setUp Thread Group PreProd 1-1,text,false,,2446,0,1,1,http://10.102.62.114:8280/token,0,0,1282
