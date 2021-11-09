@@ -1,0 +1,2439 @@
+{
+	"info": {
+		"_postman_id": "081145c3-36ae-43ae-bfab-12931919874e",
+		"name": "DDCX - TestEnv",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CSA-01 (CheckExistingCustomer)",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 7223c43c-fd0d-3b54-bdf3-1100600c2733"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"headerData\": {\r\n        \"messageId\": \"123456789191\",\r\n        \"sentDateTime\": \"11-12-2018T11:18:43.131\",\r\n        \"responseDateTime\": \"04-01-2019T08:53:35.014\"\r\n    },\r\n  \"requestRecord\":     {\r\n      \"govt_id\":\"3331001019905\"      ,      \r\n      \"policy_no\":\"32349552\"        \r\n      }\r\n}"
+				},
+				"url": {
+					"raw": "http://10.102.63.62:8080/CsaService/rest/csa/CheckExistingCustomer",
+					"protocol": "http",
+					"host": [
+						"10",
+						"102",
+						"63",
+						"62"
+					],
+					"port": "8080",
+					"path": [
+						"CsaService",
+						"rest",
+						"csa",
+						"CheckExistingCustomer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CSA-28 checkStatusAccountCsa [DDCX]",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "3847d669-306c-34cf-b675-e6292b8f9772",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "{{Protocal}}://{{Server}}/token",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "{{Secret}}",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "{{Key}}",
+							"type": "string"
+						},
+						{
+							"key": "client_authentication",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"headerData\": {\n        \"messageId\": \"3fe0a3c63603b7ea\",\n        \"sentDateTime\": \"03-11-2017 09:08:18.066\",\n        \"responseDateTime\": \"\"\n    },\n    \"requestRecord\": {\n        \"citizenId\": \"3120399951551\"\n    } \n}"
+				},
+				"url": {
+					"raw": "{{Protocal}}://{{Server}}:{{Port}}/CsaService/rest/csa/checkStatusAccountCsa/1.0",
+					"protocol": "{{Protocal}}",
+					"host": [
+						"{{Server}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"CsaService",
+						"rest",
+						"csa",
+						"checkStatusAccountCsa",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CSA-ADMIN-01 SearchAccountListbyID Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"headerData\": {\n        \"messageId\": \"123456789191\",\n        \"sentDateTime\": \"11-12-2018T11:18:43.131\"\n    },\n    \"requestRecord\": {\n        \"govtId\": \"9203178\",\n        \"userCode\": \"1234567\"\n    }\n}"
+				},
+				"url": {
+					"raw": "http://10.102.63.62:8080/CsaAdminService/SearchAccountListbyID",
+					"protocol": "http",
+					"host": [
+						"10",
+						"102",
+						"63",
+						"62"
+					],
+					"port": "8080",
+					"path": [
+						"CsaAdminService",
+						"SearchAccountListbyID"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CUS-20_searchCustomer [DDCX]",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "e8b9dc17-e8ac-38eb-b8f3-0c4e0de8e797",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"headerData\": {\r\n        \"messageId\": \"\",\r\n        \"sentDateTime\": \"\",\r\n        \"requestPage\" : 1,\r\n        \"requestPerPage\" : 10\r\n    },\r\n \"requestRecord\": {\r\n       \"citizenId\": \"3800100685347\",\r\n        \"firstName\": \"\",\r\n        \"lastName\": \"\",\r\n        \"policyNo\": \"\",\r\n        \"certNo\": \"\"\r\n    }\r\n}"
+				},
+				"url": {
+					"raw": "http://10.102.63.62:3000/customers/searchCustomer",
+					"protocol": "http",
+					"host": [
+						"10",
+						"102",
+						"63",
+						"62"
+					],
+					"port": "3000",
+					"path": [
+						"customers",
+						"searchCustomer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CUS-21_Fwd-SearchByCustomerRef",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"headerData\": {\r\n        \"messageId\": \"123456789191\",\r\n        \"sentDateTime\": \"11-12-2018T11:18:43.131\",\r\n        \"responseDateTime\": \"04-01-2019T08:53:35.014\"\r\n    },\r\n    \"requestRecord\": {\r\n       \"partyId\":17321\r\n    },\r\n   \"path\": \"/customers/searchByCustomerRef\"\r\n}"
+				},
+				"url": {
+					"raw": "http://10.102.63.59:3000/forwardAPI",
+					"protocol": "http",
+					"host": [
+						"10",
+						"102",
+						"63",
+						"59"
+					],
+					"port": "3000",
+					"path": [
+						"forwardAPI"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POL02 - policyDisplay [DDCX]",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"policy\", function () {",
+							"   pm.expect(pm.response.json().responseRecord.idNo).to.equal(\"3640100539555\"); ",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "1b3963cd-4fdc-31a6-afed-47beca244e01",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "{{Secret}}",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "{{Key}}",
+							"type": "string"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "{{Protocal}}://{{Server}}:{{Port}}/token",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer {{access_token}}",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"headerData\":{\r\n        \"messageId\":\"Send Email\",\r\n        \"sentDateTime\":\"03-11-2017T09:08:18:066\",\r\n        \"responseDateTime\":\"03-11-2017T09:08:18.066\",\r\n        \"recordPerPage\":\"1\",\r\n        \"requestPage\":\"2\",\r\n        \"totalRecord\":\"10\"\r\n    },\r\n    \"requestRecord\":{\r\n        \"policyNo\":\"22029229\",\r\n        \"noBook\" : \"\"\r\n    }\r\n}"
+				},
+				"url": {
+					"raw": "{{Protocal}}://{{Server}}:{{Port}}/interfaceCsv/rest/calculate/policyDisplay/1.0",
+					"protocol": "{{Protocal}}",
+					"host": [
+						"{{Server}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"interfaceCsv",
+						"rest",
+						"calculate",
+						"policyDisplay",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POL03 - policyPrmeium [DDCX]",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "047fb10b-3448-32fc-a86e-ce97b4d35745",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "string"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "{{Protocal}}://{{Server}}:{{Port}}/token",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "{{Secret}}",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "{{Key}}",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer {{access_token}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"headerData\": {\r\n        \"messageId\": \"3fde79860c7b12da\",\r\n        \"sentDateTime\": \"06-11-2017T09:46:53.384\",\r\n        \"responseDateTime\": \"06-11-2017T09:46:53.384\",\r\n        \"recordPerPage\": \"0\",\r\n        \"requestPage\":\"1\",\r\n        \"totalRecord\":\"2\"\r\n    },\r\n        \"requestRecord\":{\r\n                \"policyNo\": \"20581997\"\r\n        }\r\n}"
+				},
+				"url": {
+					"raw": "{{Protocal}}://{{Server}}:{{Port}}/interfaceCsv/rest/calculate/policyPremium/1.0",
+					"protocol": "{{Protocal}}",
+					"host": [
+						"{{Server}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"interfaceCsv",
+						"rest",
+						"calculate",
+						"policyPremium",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POL05 - policyLoan [DDCX]",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "047fb10b-3448-32fc-a86e-ce97b4d35745",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "{{Protocal}}://{{Server}}:{{Port}}/token",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "{{Secret}}",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "{{Key}}",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"headerData\": {\n        \"messageId\": \"3fde79860c7b12da\",\n        \"sentDateTime\": \"06-11-2017T09:46:53.384\",\n        \"responseDateTime\": \"06-11-2017T09:46:53.384\",\n        \"recordPerPage\": \"0\",\n        \"requestPage\":\"1\",\n        \"totalRecord\":\"2\"\n    },\n        \"requestRecord\":{\n                \"policyNo\":\"20070489\"\n        }\n        \n        \n}"
+				},
+				"url": {
+					"raw": "{{Protocal}}://{{Server}}:{{Port}}/interfaceCsv/rest/policy/policyLoan/1.0",
+					"protocol": "{{Protocal}}",
+					"host": [
+						"{{Server}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"interfaceCsv",
+						"rest",
+						"policy",
+						"policyLoan",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CAL08 - calculatePremium [DDCX]",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "challengeAlgorithm",
+							"value": "S256",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "{{Secret}}",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "{{Key}}",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "client_authentication",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "{{Protocal}}://{{Server}}:{{Port}}/token",
+							"type": "string"
+						},
+						{
+							"key": "accessToken",
+							"value": "1f0fe982-457e-342f-806a-4ed8368125f7",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer {{access_token}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"headerData\": {\r\n        \"messageId\": \"3fde79860c7b12da\",\r\n        \"sentDateTime\": \"06-11-2017T09:46:53.384\",\r\n        \"responseDateTime\": \"06-11-2017T09:46:53.384\",\r\n        \"recordPerPage\": \"0\",\r\n        \"requestPage\":\"1\",\r\n        \"totalRecord\":\"2\"\r\n    },\r\n        \"requestRecord\":{\r\n                \"policyNo\":\"PT0503433908\",\r\n                \"date\":\"24/03/2564\"\r\n        }\r\n}"
+				},
+				"url": {
+					"raw": "{{Protocal}}://{{Server}}:{{Port}}/interfaceCsv/rest/calculate/calculatePremium/1.0",
+					"protocol": "{{Protocal}}",
+					"host": [
+						"{{Server}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"interfaceCsv",
+						"rest",
+						"calculate",
+						"calculatePremium",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POL09 - policyDisplayUL [DDCX]",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "e3c48f92-590c-3086-a0c0-d9f9c77a9c17",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"headerData\": {\n        \"messageId\": \"3fde79860c7b12da\",\n        \"sentDateTime\": \"06-11-2017T09:46:53.384\",\n        \"responseDateTime\": \"06-11-2017T09:46:53.384\",\n        \"recordPerPage\": \"0\",\n        \"requestPage\":\"1\",\n        \"totalRecord\":\"2\"\n    },\n        \"requestRecord\":{\n                \"policyNo\":\"22788187\"\n        }              \n}"
+				},
+				"url": {
+					"raw": "{{Protocal}}://{{Server}}:{{Port}}/interfaceCsv/rest/policy/policyDisplayUL/1.0",
+					"protocol": "{{Protocal}}",
+					"host": [
+						"{{Server}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"interfaceCsv",
+						"rest",
+						"policy",
+						"policyDisplayUL",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CAL09-1 - calculateBenefit-CashNotReceived [DDCX]",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"",
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "373e16c4-89e4-3cd4-919f-c8d5a4bc004d",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "string"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "{{Protocal}}://{{Server}}:{{Port}}/token",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "{{Secret}}",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "{{Key}}",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{access_token}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n   \"headerData\":{\n       \"messageId\":\"Send Email\",\n       \"sentDateTime\":\"03-11-2017T09:08:18:066\",\n       \"responseDateTime\":\"03-11-2017T09:08:18.066\",\n       \"recordPerPage\":\"1\",\n       \"requestPage\":\"2\",\n       \"totalRecord\":\"10\"\n   },\n   \"requestRecord\":{\n       \"policyNo\":\"40798494\",\n       \"date\":\"08/12/2563\",\n       \"typeData\":\"\"\n   }\n}"
+				},
+				"url": {
+					"raw": "{{Protocal}}://{{Server}}:{{Port}}/CalPOS/calculate/calculateBenefit/cashNotReceived/1.0",
+					"protocol": "{{Protocal}}",
+					"host": [
+						"{{Server}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"CalPOS",
+						"calculate",
+						"calculateBenefit",
+						"cashNotReceived",
+						"1.0"
+					]
+				},
+				"description": "เงินคืนตามเงือนไข"
+			},
+			"response": []
+		},
+		{
+			"name": "CAL09-2 - calculateBenefit-CashReceived [DDCX]",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"",
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "d35025ee-08e7-3655-b4ab-2720c1c03f73",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "{{Protocal}}://{{Server}}:{{Port}}/token",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "{{Secret}}",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "{{Key}}",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{access_token}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n   \"headerData\":{\n       \"messageId\":\"Send Email\",\n       \"sentDateTime\":\"03-11-2017T09:08:18:066\",\n       \"responseDateTime\":\"03-11-2017T09:08:18.066\",\n       \"recordPerPage\":\"1\",\n       \"requestPage\":\"2\",\n       \"totalRecord\":\"10\"\n   },\n   \"requestRecord\":{\n       \"policyNo\":\"20432581\",\n       \"typeData\":\"\",\n       \"date\":\"18/8/2564\"\n   }\n}"
+				},
+				"url": {
+					"raw": "{{Protocal}}://{{Server}}:{{Port}}/CalPOS/calculate/calculateBenefit/cashReceived/1.0",
+					"protocol": "{{Protocal}}",
+					"host": [
+						"{{Server}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"CalPOS",
+						"calculate",
+						"calculateBenefit",
+						"cashReceived",
+						"1.0"
+					]
+				},
+				"description": "เงินคืนตามเงือนไข"
+			},
+			"response": []
+		},
+		{
+			"name": "CAL09-3 - calculateBenefit-Contact [DDCX]",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"",
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "e90a964b-bcdb-331a-8b6c-4cac30541a64",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "{{Secret}}",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "{{Key}}",
+							"type": "string"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "{{Protocal}}://{{Server}}:{{Port}}/token",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{access_token}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n   \"headerData\":{\n       \"messageId\":\"Send Email\",\n       \"sentDateTime\":\"03-11-2017T09:08:18:066\",\n       \"responseDateTime\":\"03-11-2017T09:08:18.066\",\n       \"recordPerPage\":\"1\",\n       \"requestPage\":\"2\",\n       \"totalRecord\":\"10\"\n   },\n   \"requestRecord\":{\n       \"policyNo\":\"20581997\",\n       \"typeData\":\"\",\n       \"date\":\"4/7/2564\"\n   }\n}"
+				},
+				"url": {
+					"raw": "{{Protocal}}://{{Server}}:{{Port}}/CalPOS/calculate/calculateBenefit/contactNotReceived/1.0",
+					"protocol": "{{Protocal}}",
+					"host": [
+						"{{Server}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"CalPOS",
+						"calculate",
+						"calculateBenefit",
+						"contactNotReceived",
+						"1.0"
+					]
+				},
+				"description": "เงินคืนตามเงือนไข"
+			},
+			"response": []
+		},
+		{
+			"name": "CAL09-4 - calculateBenefit-Mature [DDCX]",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"",
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "c3702e4d-5564-3e0c-b769-81cc96ea5e52",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "challengeAlgorithm",
+							"value": "S256",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "{{Secret}}",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "{{Key}}",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "client_authentication",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "{{Protocal}}://{{Server}}:{{Port}}/token",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{access_token}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n   \"headerData\":{\n       \"messageId\":\"Send Email\",\n       \"sentDateTime\":\"03-11-2017T09:08:18:066\",\n       \"responseDateTime\":\"03-11-2017T09:08:18.066\",\n       \"recordPerPage\":\"1\",\n       \"requestPage\":\"2\",\n       \"totalRecord\":\"10\"\n   },\n   \"requestRecord\":{\n       \"policyNo\":\"20581997\",\n       \"date\":\"4/7/2564\"\n   }\n}"
+				},
+				"url": {
+					"raw": "{{Protocal}}://{{Server}}:{{Port}}/CalPOS/calculate/calculateBenefit/mature/1.0",
+					"protocol": "{{Protocal}}",
+					"host": [
+						"{{Server}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"CalPOS",
+						"calculate",
+						"calculateBenefit",
+						"mature",
+						"1.0"
+					]
+				},
+				"description": "เงินคืนตามเงือนไข"
+			},
+			"response": []
+		},
+		{
+			"name": "CAL10-1 returnLoan [DDCX]",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "accessToken",
+							"value": "cf5df433-6eb2-33c3-a7fa-7aee6ce8cde2",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer {{access_token}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"headerData\": {\n        \"messageId\": \"04075100-a3d5-4f71-9bc7-13584589fc6b\",\n        \"sentDateTime\": \"02-08-2018T14:34:27.651\",\n        \"responseDateTime\": \"02-08-2018T14:34:27.651\",\n        \"recordPerPage\": null,\n        \"requestPage\": null,\n        \"totalRecord\": null\n    },\n    \"requestRecord\": {\n        \"policyNo\": \"20581997\",\n        \"date\": \"4/7/2564\"\n    }\n}"
+				},
+				"url": {
+					"raw": "{{Protocal}}://{{Server}}:{{Port}}/CalPOS/calculate/calculateLoan/returnLoan/1.0",
+					"protocol": "{{Protocal}}",
+					"host": [
+						"{{Server}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"CalPOS",
+						"calculate",
+						"calculateLoan",
+						"returnLoan",
+						"1.0"
+					]
+				},
+				"description": "รับคืนเงินกู้"
+			},
+			"response": []
+		},
+		{
+			"name": "CAL10-2 requestLoan [DDCX]",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "7cdacad4-10a0-3219-b78e-617d8315fe08",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer {{access_token}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"headerData\": {\n        \"messageId\": \"04075100-a3d5-4f71-9bc7-13584589fc6b\",\n        \"sentDateTime\": \"02-08-2018T14:34:27.651\",\n        \"responseDateTime\": \"02-08-2018T14:34:27.651\",\n        \"recordPerPage\": \"1\",\n        \"requestPage\": \"2\",\n        \"totalRecord\": \"10\"\n    },\n    \"requestRecord\": {\n        \"policyNo\": \"25382343\",\n        \"date\": \"30/3/2564\"\n    }\n}"
+				},
+				"url": {
+					"raw": "{{Protocal}}://{{Server}}:{{Port}}/CalPOS/calculate/calculateLoan/requestLoan/1.0",
+					"protocol": "{{Protocal}}",
+					"host": [
+						"{{Server}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"CalPOS",
+						"calculate",
+						"calculateLoan",
+						"requestLoan",
+						"1.0"
+					]
+				},
+				"description": "เงินกู้ตามกรมธรรม์"
+			},
+			"response": []
+		},
+		{
+			"name": "CAL10-3 extend Loan [DDCX]",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "02b83cd1-1440-3cfc-a9ad-d47c74f4f5f0",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer {{access_token}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"headerData\": {\n        \"messageId\": \"04075100-a3d5-4f71-9bc7-13584589fc6b\",\n        \"sentDateTime\": \"02-08-2018T14:34:27.651\",\n        \"responseDateTime\": \"02-08-2018T14:34:27.651\"\n    },\n    \"requestRecord\": {\n        \"policyNo\": \"20389223\",\n        \"calculateDate\": \"04/11/2663\",\n        \"year\" : \"1\"\n    }\n}"
+				},
+				"url": {
+					"raw": "{{Protocal}}://{{Server}}:{{Port}}/CalPOS/calculate/calculateLoan/extendLoan/1.0",
+					"protocol": "{{Protocal}}",
+					"host": [
+						"{{Server}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"CalPOS",
+						"calculate",
+						"calculateLoan",
+						"extendLoan",
+						"1.0"
+					]
+				},
+				"description": "ชำระดอกเบี้ยสัญญาเงินกู้"
+			},
+			"response": []
+		},
+		{
+			"name": "CAL12-1 surender [DDCX]",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "7cdacad4-10a0-3219-b78e-617d8315fe08",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer {{access_token}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"headerData\": {\n        \"messageId\": \"3fde79860c7b12da\",\n        \"sentDateTime\": \"06-11-2017T09:46:53.384\",\n        \"responseDateTime\": \"06-11-2017T09:46:53.384\",\n        \"recordPerPage\": \"0\",\n        \"requestPage\":\"1\",\n        \"totalRecord\":\"2\"\n    },\n        \"requestRecord\":{\n                \"policyNo\":\"20581997\",\n                \"date\":\"4/7/2564\"\n        }              \n}"
+				},
+				"url": {
+					"raw": "{{Protocal}}://{{Server}}:{{Port}}/CalPOS/calculate/calculateCancel/surender/1.0",
+					"protocol": "{{Protocal}}",
+					"host": [
+						"{{Server}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"CalPOS",
+						"calculate",
+						"calculateCancel",
+						"surender",
+						"1.0"
+					]
+				},
+				"description": "ยกโลก (เวนคืนกรมธรรม์)"
+			},
+			"response": []
+		},
+		{
+			"name": "CAL12-2 cancel-extend [DDCX]",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "7cdacad4-10a0-3219-b78e-617d8315fe08",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer {{access_token}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"headerData\": {\n        \"messageId\": \"3fde79860c7b12da\",\n        \"sentDateTime\": \"06-11-2017T09:46:53.384\",\n        \"responseDateTime\": \"06-11-2017T09:46:53.384\",\n        \"recordPerPage\": \"0\",\n        \"requestPage\":\"1\",\n        \"totalRecord\":\"2\"\n    },\n        \"requestRecord\":{\n                \"policyNo\":\"20100263\",\n                \"date\":\"19/10/2563\"\n        }              \n}"
+				},
+				"url": {
+					"raw": "{{Protocal}}://{{Server}}:{{Port}}/CalPOS/calculate/calculateCancel/extend/1.0s",
+					"protocol": "{{Protocal}}",
+					"host": [
+						"{{Server}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"CalPOS",
+						"calculate",
+						"calculateCancel",
+						"extend",
+						"1.0s"
+					]
+				},
+				"description": "ยกโลก (แบบขยายเวลา)"
+			},
+			"response": []
+		},
+		{
+			"name": "CAL12-3 cancel-paid up [DDCX]",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "7cdacad4-10a0-3219-b78e-617d8315fe08",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer {{access_token}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"headerData\": {\n        \"messageId\": \"3fde79860c7b12da\",\n        \"sentDateTime\": \"06-11-2017T09:46:53.384\",\n        \"responseDateTime\": \"06-11-2017T09:46:53.384\",\n        \"recordPerPage\": \"0\",\n        \"requestPage\":\"1\",\n        \"totalRecord\":\"2\"\n    },\n        \"requestRecord\":{\n                \"policyNo\":\"20100263\",\n                \"date\":\"19/10/2563\"\n        }              \n}"
+				},
+				"url": {
+					"raw": "{{Protocal}}://{{Server}}:{{Port}}/CalPOS/calculate/calculateCancel/paidUp/1.0",
+					"protocol": "{{Protocal}}",
+					"host": [
+						"{{Server}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"CalPOS",
+						"calculate",
+						"calculateCancel",
+						"paidUp",
+						"1.0"
+					]
+				},
+				"description": "ยกโลก (ใช้เงินสำเร็จ)"
+			},
+			"response": []
+		},
+		{
+			"name": "CLM10 - ClaimDetail [DDCX]",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "7f578f00-da22-34f5-9329-7d0f60fdf288",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer {{access_token}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"headerData\": {\n        \"messageId\": \"3fde79860c7b12da\",\n        \"sentDateTime\": \"06-11-2017T09:46:53.384\",\n        \"responseDateTime\": \"06-11-2017T09:46:53.384\"\n        },\n    \"requestRecord\":{\n        \"customerId\":\"22475\",\n        \"channel\" : \"A\"\n    }        \n}"
+				},
+				"url": {
+					"raw": "{{Protocal}}://{{Server}}:{{Port}}/customerClaim/claimDetail/1.0",
+					"protocol": "{{Protocal}}",
+					"host": [
+						"{{Server}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"customerClaim",
+						"claimDetail",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POL_DB_01_SearchPolicyByCustomerId Copy",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "fa0685fb-4156-35e3-a2ab-8e8b05dcf4d2",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"headerData\": {\r\n        \"messageId\": \"3fe0a3c63603b7ea\",\r\n        \"sentDateTime\": \"12-11-2019 13:47:01\"\r\n    },\r\n    \"requestRecord\": {\r\n        \"customer_id\": \"4163264\"\r\n    }\r\n}"
+				},
+				"url": {
+					"raw": "http://10.102.63.62:8080/PolicyDataService/SearchPolicyByCustomerId",
+					"protocol": "http",
+					"host": [
+						"10",
+						"102",
+						"63",
+						"62"
+					],
+					"port": "8080",
+					"path": [
+						"PolicyDataService",
+						"SearchPolicyByCustomerId"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POL_DB_02_03_PolicyDetailsUnitLink [DDCX]",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "e97180f4-a47c-32d5-8d38-b55ee3e71c2f",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"headerData\": {\r\n        \"messageId\": \"3fe0a3c63603b7ea\",\r\n        \"sentDateTime\": \"12-11-2019 13:47:01\"\r\n    },\r\n    \"requestRecord\": {\r\n        \"policyno\": \"92002483\",\r\n        \"type\" : \"AG-ULIP-ULIP\"\r\n    }\r\n}"
+				},
+				"url": {
+					"raw": "{{Protocal}}://{{Server}}:{{Port}}/PolicyDataService/PolicyDetailsUnitLink/1.0",
+					"protocol": "{{Protocal}}",
+					"host": [
+						"{{Server}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"PolicyDataService",
+						"PolicyDetailsUnitLink",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POL_DB_05_GetRiderDetial [DDCX]",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessTokenUrl",
+							"value": "{{Protocal}}://{{Server}}:{{Port}}/token",
+							"type": "string"
+						},
+						{
+							"key": "challengeAlgorithm",
+							"value": "S256",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "{{Secret}}",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "{{Key}}",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "client_authentication",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "accessToken",
+							"value": "ace5df07-228a-3145-a9ae-483a109ff055",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"headerData\": {\r\n        \"messageId\": \"3fe0a3c63603b7ea\",\r\n        \"sentDateTime\": \"03-11-2017 09:08:18\",\r\n        \"responseDateTime\": \"\"\r\n        },\r\n     \"requestRecord\": {\r\n             \"policyno\":\"23250904\",\r\n             \"certno\":\"\",\r\n             \"type\":\"xx-OL-xx\"\r\n     }\r\n}"
+				},
+				"url": {
+					"raw": "http://10.102.63.62:8080/PolicyDataService/GetRiderDetial",
+					"protocol": "http",
+					"host": [
+						"10",
+						"102",
+						"63",
+						"62"
+					],
+					"port": "8080",
+					"path": [
+						"PolicyDataService",
+						"GetRiderDetial"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POL_DB_11_GetPaymentHistory [DDCX]",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "3aca4583-e5c2-3d15-a2cf-7e45ef78755a",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"headerData\": {\r\n        \"messageId\": \"3fe0a3c63603b7ea\",\r\n        \"sentDateTime\": \"14-11-2019 15:38:40\"\r\n    },\r\n    \"requestRecord\": {\r\n        \"policyno\": \"9014\",\r\n        \"certno\": \"01545503\",\r\n        \"type\":\"AG-ULIP-ULIP\" \r\n    }\r\n}"
+				},
+				"url": {
+					"raw": "http://10.102.63.62:8080/PolicyDataService/GetPaymentHistory",
+					"protocol": "http",
+					"host": [
+						"10",
+						"102",
+						"63",
+						"62"
+					],
+					"port": "8080",
+					"path": [
+						"PolicyDataService",
+						"GetPaymentHistory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BCP-DDCX-01 - payChannelSelect",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "1b3963cd-4fdc-31a6-afed-47beca244e01",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"headerData\": {\r\n        \"messageId\": \"3fe0a3c63603b7ea\",\r\n        \"sentDateTime\": \"14-11-2019 15:38:40\"\r\n    },\r\n    \"requestRecord\": {\r\n        \"policyType\": \"I\",\r\n        \"policyNumber\": \"01545503\"\r\n    }\r\n}"
+				},
+				"url": {
+					"raw": "{{Protocal}}://{{Server}}:{{Port}}/InquiryCreditPayment/rest/service/inquiry/1.0",
+					"protocol": "{{Protocal}}",
+					"host": [
+						"{{Server}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"InquiryCreditPayment",
+						"rest",
+						"service",
+						"inquiry",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BCP-DDCX-02 - PaymentHistory by Policy",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "1b3963cd-4fdc-31a6-afed-47beca244e01",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"headerData\": {\r\n        \"messageId\": \"3fe0a3c63603b7ea\",\r\n        \"sentDateTime\": \"14-11-2019 15:38:40\"\r\n    },\r\n    \"requestRecord\": {\r\n        \"policyType\": \"\",\r\n        \"policyNo\": \"86000980\"\r\n    }\r\n}"
+				},
+				"url": {
+					"raw": "{{Protocal}}://{{Server}}:{{Port}}/ReceiptHistory/rest/service/inquire/1.0",
+					"protocol": "{{Protocal}}",
+					"host": [
+						"{{Server}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"ReceiptHistory",
+						"rest",
+						"service",
+						"inquire",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BCP-DDCX-03 -  ค้นหาประวัติการชำระเบี้ยประกันภัยทุกงวดชำระจนถึงปัจจุบัน",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "1b3963cd-4fdc-31a6-afed-47beca244e01",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"headerData\": {\r\n        \"messageId\": \"3fe0a3c63603b7ea\",\r\n        \"sentDateTime\": \"14-11-2019 15:38:40\"\r\n    },\r\n    \"requestRecord\": {\r\n        \"policyType\": \"\",\r\n        \"policyNo\": \"86000980\"\r\n    }\r\n}"
+				},
+				"url": {
+					"raw": "{{Protocal}}://{{Server}}:{{Port}}/ReceiptHistoryDetail/rest/receipt/detail/1.0",
+					"protocol": "{{Protocal}}",
+					"host": [
+						"{{Server}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"ReceiptHistoryDetail",
+						"rest",
+						"receipt",
+						"detail",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ขอหนังสือรับรอง certificate [DDCX]",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"headerData\":{\r\n      \"messageId\":\"633d16b0-37aa-4e97-be92-144dbca7b60a\",\r\n      \"sentDateTime\":\"21-10-2020T15:10:22.365\"\r\n   },\r\n   \"requestRecord\":{\r\n       \"request\" : \"Certificate\",\r\n       \"policyNo\" : \"22441429\",\r\n       \"yearTax\" : \"2563\",\r\n       \"applicationCode\" : \"DDCX\"\r\n   }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://10.102.63.58:8080/ECertificateService/rest/service/certificate",
+					"protocol": "http",
+					"host": [
+						"10",
+						"102",
+						"63",
+						"58"
+					],
+					"port": "8080",
+					"path": [
+						"ECertificateService",
+						"rest",
+						"service",
+						"certificate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ldapService-SOAP [DDCX]",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/xml",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:web=\"http://webservice.ldapadmin/\">\r\n  <soapenv:Header/>\r\n  <soapenv:Body>\r\n     <web:serviceReq>\r\n        <arg0>\r\n           <requestID>auth</requestID>\r\n           <TLdapSecurity>\r\n              <password>B@nks007</password>\r\n              <username>weerawat.tri</username>\r\n           </TLdapSecurity>\r\n        </arg0>\r\n     </web:serviceReq>\r\n  </soapenv:Body>\r\n</soapenv:Envelope>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://10.102.63.58:8080/ldapservice/tldap",
+					"protocol": "http",
+					"host": [
+						"10",
+						"102",
+						"63",
+						"58"
+					],
+					"port": "8080",
+					"path": [
+						"ldapservice",
+						"tldap"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Forward Request Node - login",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "89cef15c-522c-3fe2-bed7-1d54a5a48e4d",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"headerData\": {\r\n       \"messageId\": \"\",\r\n       \"sentDateTime\": \"\",\r\n       \"responseDateTime\": \"\"\r\n   },\r\n   \"requestRecord\": {\r\n        \"partyId\": \"3579567\"\r\n   },\r\n   \"path\": \"/customers/searchByCustomerRef\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "10.102.63.59/forwardAPI",
+					"host": [
+						"10",
+						"102",
+						"63",
+						"59"
+					],
+					"path": [
+						"forwardAPI"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Forward Request Node - party_id",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "89cef15c-522c-3fe2-bed7-1d54a5a48e4d",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"headerData\": {\r\n       \"messageId\": \"\",\r\n       \"sentDateTime\": \"\",\r\n       \"responseDateTime\": \"\"\r\n   },\r\n   \"requestRecord\": {\r\n        \"partyId\": \"17321\"\r\n   },\r\n   \"path\": \"/customers/searchByCustomerRef\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "10.102.63.59/forwardAPI",
+					"host": [
+						"10",
+						"102",
+						"63",
+						"59"
+					],
+					"path": [
+						"forwardAPI"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UTL02 - utilitySMS [DDCX]",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "df7ba1e3-0eda-3b7e-8cc1-b1212a26af51",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"headerData\": {\n        \"messageId\": \"Send Email\",\n        \"sentDateTime\": \"03-11-2017T09:08:18:066\",\n        \"responseDateTime\": \"03-11-2017T09:08:18.066\",\n        \"recordPerPage\": \"1\",\n        \"requestPage\": \"2\",\n        \"totalRecord\": \"10\"\n    },\n    \"requestRecord\": {\n        \"priority\": \"1\",\n        \"mobileNumber\": \"0805696593\",\n        \"campaign\": \"GI-TEST\",\n        \"senderName\": \"TLI-DEV\",\n        \"text\": \"test system\"\n    }\n}"
+				},
+				"url": {
+					"raw": "{{Protocal}}://{{Server}}:{{Port}}/interfaceCsv/rest/utility/utilitySMS/1.0",
+					"protocol": "{{Protocal}}",
+					"host": [
+						"{{Server}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"interfaceCsv",
+						"rest",
+						"utility",
+						"utilitySMS",
+						"1.0"
+					]
+				},
+				"description": "utilityEmail"
+			},
+			"response": []
+		},
+		{
+			"name": "UNW-01 searchApplication [DDCX]",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "ee43eca9-75d4-333b-8ef0-2b0770056d05",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "{{Secret}}",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "{{Key}}",
+							"type": "string"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "{{Protocal}}://{{Server}}:{{Port}}/token",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"headerData\": {\r\n        \"messageId\": \"123456789\",\r\n        \"sentDateTime\": \"2020-12-08 15:15:59\",\r\n        \"responseDateTime\": null\r\n    },\r\n    \"requestRecord\": {\r\n    \t\"channel\" : \"CC\",\r\n        \"salesID\": \"\",\r\n        \"firstName\": \"อัญชลี\",\r\n        \"lastName\": \"เถลิงเกียรติกำจร\",\r\n        \"tempPolicyNo\" : \"AA449434\",\r\n        \"applicationNo\" : \"\",\r\n        \"tempRpNo\" : \"\",\r\n        \"idNo\" : \"\",\r\n        \"illustID\" : \"\",\r\n        \"startRecordDate\" : \"\",\r\n        \"endRecordDate\" : \"\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Protocal}}://{{Server}}:{{Port}}/CoreDDCXRestWS/rest/searchapplication/detail/1.0",
+					"protocol": "{{Protocal}}",
+					"host": [
+						"{{Server}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"CoreDDCXRestWS",
+						"rest",
+						"searchapplication",
+						"detail",
+						"1.0"
+					]
+				},
+				"description": "ขอรายละเอียดประวัติการดำเนินการ"
+			},
+			"response": []
+		},
+		{
+			"name": "UNW-02 searchprogress [DDCX]",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "0d10a41e-ac57-3c40-b03f-1a67d12d4e16",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "{{Secret}}",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "{{Key}}",
+							"type": "string"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "{{Protocal}}://{{Server}}:{{Port}}/token",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"headerData\": {\n        \"messageId\": \"123456789\",\n        \"sentDateTime\": \"2020-12-08 15:15:59\",\n        \"responseDateTime\": null\n    },\n    \"requestRecord\": {\n        \"tempPolicyNo\": \"AM090349\",\n        \"yymm\": \"\",\n        \"applicationNo\": \"\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Protocal}}://{{Server}}:{{Port}}/CoreDDCXRestWS/rest/searchapplication/detail/1.0",
+					"protocol": "{{Protocal}}",
+					"host": [
+						"{{Server}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"CoreDDCXRestWS",
+						"rest",
+						"searchapplication",
+						"detail",
+						"1.0"
+					]
+				},
+				"description": "ขอรายละเอียดประวัติการดำเนินการ"
+			},
+			"response": []
+		},
+		{
+			"name": "UNW-03 genprebook [DDCX]",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "0d10a41e-ac57-3c40-b03f-1a67d12d4e16",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "{{Secret}}",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "{{Key}}",
+							"type": "string"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "{{Protocal}}://{{Server}}:{{Port}}/token",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"headerData\": {\n        \"messageId\": \"123456789\",\n        \"sentDateTime\": \"2020-12-08 15:15:59\",\n        \"responseDateTime\": null\n    },\n    \"requestRecord\": {\n        \"yyyy\": \"2562\",\n        \"bookNo\": \"203595\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Protocal}}://{{Server}}:{{Port}}/CoreDDCXRestWS/rest/searchapplication/detail/1.0",
+					"protocol": "{{Protocal}}",
+					"host": [
+						"{{Server}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"CoreDDCXRestWS",
+						"rest",
+						"searchapplication",
+						"detail",
+						"1.0"
+					]
+				},
+				"description": "ขอรายละเอียดประวัติการดำเนินการ"
+			},
+			"response": []
+		}
+	]
+}
