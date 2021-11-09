@@ -1,0 +1,602 @@
+{
+	"info": {
+		"_postman_id": "ac1f79d5-423c-4082-8204-ce0bd59651b4",
+		"name": "2. MEMBER",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "MEMBER01 [SearchProfileByCustomerId]",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer e3634848-1025-3e9b-a7b9-144975bdba94"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"headerData\": {\n          \"messageId\": \"11\",\n        \"sentDateTime\": \"11-12-2018T11:18:43.131\",\n        \"responseDateTime\": \"04-01-2019T08:53:35.014\"\n    },\n        \"requestRecord\":{\n        \t  \"customer_id\":\"3948132\"\n        }\n }"
+				},
+				"url": {
+					"raw": "{{Server}}/MemberProfileService/SearchProfileByCustomerId/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"MemberProfileService",
+						"SearchProfileByCustomerId",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MEMBER02 [SearchMonthlyIncome]",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"headerData\": {\n          \"messageId\": \"5466426\",\n        \"sentDateTime\": \"11-12-2018T11:18:43.131\",\n        \"responseDateTime\": \"04-01-2019T08:53:35.014\"\n },\n        \"requestRecord\":{\n                 \"customer_id\":\"3710210\"\n        }\n }"
+				},
+				"url": {
+					"raw": "{{Server}}/MemberProfileService/SearchMonthlyIncome/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"MemberProfileService",
+						"SearchMonthlyIncome",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MEMBER03 [SearchFavoriteActivity]",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"headerData\": {\n          \"messageId\": \"5466426\",\n        \"sentDateTime\": \"11-12-2018T11:18:43.131\",\n        \"responseDateTime\": \"04-01-2019T08:53:35.014\"\n },\n        \"requestRecord\":{\n                 \"customer_id\":\"3710210\"\n        }\n }"
+				},
+				"url": {
+					"raw": "{{Server}}/MemberProfileService/SearchFavoriteActivity/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"MemberProfileService",
+						"SearchFavoriteActivity",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MEMBER04 [SearchHospitalRegularly]",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 99141e7a-5b9a-3b24-8b18-8aa377618fe2"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"headerData\": {\n          \"messageId\": \"5466426\",\n        \"sentDateTime\": \"11-12-2018T11:18:43.131\",\n        \"responseDateTime\": \"04-01-2019T08:53:35.014\"\n },\n        \"requestRecord\":{\n                 \"customer_id\":\"3710210\"\n        }\n }"
+				},
+				"url": {
+					"raw": "{{Server}}/MemberProfileService/SearchHospitalRegularly/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"MemberProfileService",
+						"SearchHospitalRegularly",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MEMBER05 [SearchEmergencyContact]",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"headerData\": {\n          \"messageId\": \"123456789\",\n        \"sentDateTime\": \"15-11-2019T14:09:48.934\",\n        \"responseDateTime\": \"\"\n     \n    },\n     \"requestRecord\": {\n             \"customer_id\":\"3710210\"\n      \n     }\n}"
+				},
+				"url": {
+					"raw": "{{Server}}/MemberProfileService/SearchEmergencyContact/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"MemberProfileService",
+						"SearchEmergencyContact",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MEMBER07 [UpdateCustomer]",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"headerData\": {\n          \"messageId\": \"5466426\",\n        \"sentDateTime\": \"11-12-2018T11:18:43.131\",\n        \"responseDateTime\": \"04-01-2019T08:53:35.014\"\n     \n    },\n        \"requestRecord\":{\n                 \"customer_id\":\"3710210\",  \n                 \"weight\":\"56\",\n              \"height\":\"180\"\n        }\n        \n        \n}"
+				},
+				"url": {
+					"raw": "{{Server}}/MemberProfileService/UpdateCustomer/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"MemberProfileService",
+						"UpdateCustomer",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MEMBER08 [UpdateMonthlyIncome]",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"name": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"headerData\": {\n          \"messageId\": \"5466426\",\n        \"sentDateTime\": \"11-12-2018T11:18:43.131\",\n        \"responseDateTime\": \"04-01-2019T08:53:35.014\"\n     \n    },\n     \"requestRecord\": {\n        \"customer_id\": \"3710210\",\n        \"lookupIncomeRange\": [\n                {\n                    \"code\": \"1\",\n                    \"name\": \"0 - 10,000\",\n                    \"selected\": \"false\"\n                },\n                {\n                    \"code\": \"2\",\n                    \"name\": \"10,001 - 15,000\",\n                    \"selected\": \"true\"\n                },\n                {\n                    \"code\": \"3\",\n                    \"name\": \"15,001 - 25,000\",\n                    \"selected\": \"false\"\n                },\n                {\n                    \"code\": \"4\",\n                    \"name\": \"25,001 - 35,000\",\n                    \"selected\": \"false\"\n                },\n                {\n                    \"code\": \"5\",\n                    \"name\": \"35,001 - 50,000\",\n                    \"selected\": \"false\"\n                },\n                {\n                    \"code\": \"6\",\n                    \"name\": \"50,001 - 70,000\",\n                    \"selected\": \"false\"\n                },\n                {\n                    \"code\": \"7\",\n                    \"name\": \"70,001 - 100,000\",\n                    \"selected\": \"false\"\n                },\n                {\n                    \"code\": \"8\",\n                    \"name\": \"100,0001 - 999,999\",\n                    \"selected\": \"false\"\n                }\n            ]\n     }\n}"
+				},
+				"url": {
+					"raw": "{{Server}}/MemberProfileService/UpdateMonthlyIncome/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"MemberProfileService",
+						"UpdateMonthlyIncome",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MEMBER09 [UpdateFavoriteActivity]",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"headerData\": {\n          \"messageId\": \"5466426\",\n        \"sentDateTime\": \"11-12-2018T11:18:43.131\",\n        \"responseDateTime\": \"04-01-2019T08:53:35.014\"\n     \n    },\n     \"requestRecord\": {\n        \"customer_id\": \"3710210\",\n         \"lookupInterest\": [\n                {\n                    \"code\": \"1\",\n                    \"name\": \"ปั่นจักรยาน\",\n                    \"selected\": \"false\"\n                },\n                {\n                    \"code\": \"2\",\n                    \"name\": \"ดำน้ำ\",\n                    \"selected\": \"true\"\n                },\n                {\n                    \"code\": \"3\",\n                    \"name\": \"ดูนก\",\n                    \"selected\": \"true\"\n                }\n            ]\n     }\n}"
+				},
+				"url": {
+					"raw": "{{Server}}/MemberProfileService/UpdateFavoriteActivity/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"MemberProfileService",
+						"UpdateFavoriteActivity",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MEMBER10 [UpdateHospitalRegularly]",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"headerData\": {\n        \"messageId\": \"5466426\",\n        \"sentDateTime\": \"11-12-2018T11:18:43.131\",\n        \"responseDateTime\": \"04-01-2019T08:53:35.014\"\n    },\n    \"requestRecord\": {\n        \"customer_id\": 3710210,\n        \"lookupHospital\": [\n\n                {\n                    \"code\": \"186\",\n                    \"name\": \"คณะแพทยศาสตร์ มหาวิทยาลัยนเรศวร\",    \n                    \n                    \"selected\": \"true\"\n                },\n                   {\n                    \"code\": \"71\",\n                    \"name\": \"โรงพยาบาลวิภาราม\",   \n                    \n                    \"selected\": \"false\"\n                }\n            ]\n        }\n}"
+				},
+				"url": {
+					"raw": "{{Server}}/MemberProfileService/UpdateHospitalRegularly/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"MemberProfileService",
+						"UpdateHospitalRegularly",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MEMBER11 [UpdateEmergencyContact]",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"headerData\": {\n        \"messageId\": \"5466426\",\n        \"sentDateTime\": \"11-12-2018T11:18:43.131\",\n        \"responseDateTime\": \"08-11-2019T09:30:04.175\"\n    },\n    \"responseRecord\": [\n        {\n            \"customer_id\": \"3710210\",\n            \"emergencyContact\": [\n                {\n                    \"fname\": \"ทดสอบ\",\n                    \"lname\": \"ทดสอบ\",\n                    \"mobile\": \"0830849999\",\n                    \"code\": 1,\n                    \"relationship\": \"ภรรยา\"\n                }\n            ]\n        }\n    ]\n}"
+				},
+				"url": {
+					"raw": "{{Server}}/MemberProfileService/UpdateEmergencyContact/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"MemberProfileService",
+						"UpdateEmergencyContact",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MEMBER13 [LookupRelationship]",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"headerData\": {\n          \"messageId\": \"5466426\",\n        \"sentDateTime\": \"11-12-2018T11:18:43.131\",\n        \"responseDateTime\": \"04-01-2019T08:53:35.014\"\n     \n    },\n     \"requestRecord\": {\n        \n     }\n}"
+				},
+				"url": {
+					"raw": "{{Server}}/MemberProfileService/LookupRelationship/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"MemberProfileService",
+						"LookupRelationship",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MEMBER16 [updateContactPOS]",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"headerData\": {\n        \"messageId\": \"54664256\",\n        \"sentDateTime\": \"2020-03-19 23:59:59\"\n    },\n    \"requestRecord\": {\n        \"customer_id\": \"3710210\",\n        \"address\": \n        [\n        \t            {\n                \"place\": \"Place\",\n                \"houseNo\": \"10/250\",\n                \"building\": \"RS Tower\",\n                \"floor\": \"8\",\n                \"room\": \"UAT\",\n                \"vilageNo\": \"\",\n                \"village\": \"\",\n                \"alley\": \"\",\n                \"lane\": \"\",\n                \"road\": \"พระราม9\",\n                \"subDistrict\": \"ลาดกระบัง\",\n                \"district\": \"ลาดกระบัง\",\n                \"province\": \"กรุงเทพ\",\n                \"postalCode\": \"10520\"\n            }\n        \t],\n        \"mobile_no\": [\n            {\n                \"phoneNo\": null,\n                \"mobileNo\": null,\n                \"phoneNoEx\": null\n            }\n        ],\n        \"email_address\": null,\n        \"policyList\": [\n{\n  \"policyNo\": \"34905628\",\n  \"certNo\": \"\",\n  \"planCode\": \"NH\",\n  \"policyType\": \"AG-OL-ENDOWNMENT\"\n},\n{\n  \"policyNo\": \"22391559\",\n  \"certNo\": \"\",\n  \"planCode\": \"AE\",\n  \"policyType\": \"AG-OL-ANNUITY\"\n},\n{\n  \"policyNo\": \"22392221\",\n  \"certNo\": \"\",\n  \"planCode\": \"AE\",\n  \"policyType\": \"AG-OL-ANNUITY\"\n},\n{\n  \"policyNo\": \"22269533\",\n  \"certNo\": \"\",\n  \"planCode\": \"AE\",\n  \"policyType\": \"AG-OL-ANNUITY\"\n},\n{\n  \"policyNo\": \"33253234\",\n  \"certNo\": \"\",\n  \"planCode\": \"WN\",\n  \"policyType\": \"AG-OL-WHOLE\"\n},\n{\n  \"policyNo\": \"22019199\",\n  \"certNo\": \"\",\n  \"planCode\": \"PJ\",\n  \"policyType\": \"AG-OL-OL\"\n},\n{\n  \"policyNo\": \"22780631\",\n  \"certNo\": \"\",\n  \"planCode\": \"WY10\",\n  \"policyType\": \"AG-OL-WHOLE\"\n},\n{\n  \"policyNo\": \"34929168\",\n  \"certNo\": \"\",\n  \"planCode\": \"NX15\",\n  \"policyType\": \"AG-OL-ENDOWNMENT\"\n},\n{\n  \"policyNo\": \"23181530\",\n  \"certNo\": \"\",\n  \"planCode\": \"UWA\",\n  \"policyType\": \"AG-UL-UL\"\n},\n{\n  \"policyNo\": \"22804562\",\n  \"certNo\": \"\",\n  \"planCode\": \"WX10\",\n  \"policyType\": \"AG-OL-WHOLE\"\n},\n{\n  \"policyNo\": \"22935903\",\n  \"certNo\": \"\",\n  \"planCode\": \"NH\",\n  \"policyType\": \"AG-OL-ENDOWNMENT\"\n},\n{\n  \"policyNo\": \"22391561\",\n  \"certNo\": \"\",\n  \"planCode\": \"NH\",\n  \"policyType\": \"AG-OL-ENDOWNMENT\"\n},\n{\n  \"policyNo\": \"22391560\",\n  \"certNo\": \"\",\n  \"planCode\": \"NH\",\n  \"policyType\": \"AG-OL-ENDOWNMENT\"\n},\n{\n  \"policyNo\": \"82239871\",\n  \"certNo\": \"\",\n  \"planCode\": \"TJ\",\n  \"policyType\": \"AG-OL-PA\"\n},\n{\n  \"policyNo\": \"33395429\",\n  \"certNo\": \"\",\n  \"planCode\": \"NJ\",\n  \"policyType\": \"AG-OL-ENDOWNMENT\"\n},\n{\n  \"policyNo\": \"21700934\",\n  \"certNo\": \"\",\n  \"planCode\": \"SK\",\n  \"policyType\": \"AG-OL-OL\"\n},\n{\n  \"policyNo\": \"82110708\",\n  \"certNo\": \"\",\n  \"planCode\": \"TJ\",\n  \"policyType\": \"AG-OL-PA\"\n}\n\n\n\n        ],\n        \"updateAddress\": \"Y\",\n        \"updateMobileNo\": \"N\",\n        \"updatePhoneNo\": \"N\",\n        \"updatePhoneNoEx\": \"N\",\n        \"updateEmail\": \"N\"\n    }\n}"
+				},
+				"url": {
+					"raw": "{{Server}}/MemberProfileService/UpdateContactPOS/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"MemberProfileService",
+						"UpdateContactPOS",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MEMBER17 [searchContactPOS]",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"headerData\": {\n          \"messageId\": \"5466426\",\n        \"sentDateTime\": \"11-12-2018T11:18:43.131\",\n        \"responseDateTime\": \"04-01-2019T08:53:35.014\"\n     \n    },\n     \"requestRecord\": {\n        \"customer_id\": \"3710210\"\n     }\n}"
+				},
+				"url": {
+					"raw": "{{Server}}/MemberProfileService/SearchMemberContact/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"MemberProfileService",
+						"SearchMemberContact",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MEMBER18 [SearchDiseaseRegularly]",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"headerData\": {\n        \"messageId\": \"c142e7e4-4391-493d-8b77-bd908620f66b\",\n        \"sentDateTime\": \"2020-03-19 23:59:59\"\n    },\n    \"requestRecord\": {\n        \"customerId\": 3710210,\n        \"codeHospital\": \"186\"\n    }}"
+				},
+				"url": {
+					"raw": "{{Server}}/MemberProfileService/SearchDiseaseRegularly/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"MemberProfileService",
+						"SearchDiseaseRegularly",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MEMBER19 [updateDiseaseRegularly]",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"headerData\": {\n        \"messageId\": \"5466426\",\n        \"sentDateTime\": \"2020-03-19 23:59:59\"\n    },\n    \"requestRecord\": {\n        \"customerId\": \"3710210\",\n        \"codeHospital\": \"186\",\n        \"lookupDisease\": [\n            {\n                    \"codeDisease\": \"0\",\n                \"nameDisease\": \"ไม่ระบุ / ไม่มีข้อมูล\",\n                \"otherDisease\": \"\",\n                \"selected\": \"false\"\n            },\n            {\n                \"codeDisease\": \"1\",\n                \"nameDisease\": \"ท้องเสีย\",\n                \"otherDisease\": \"\",\n                \"selected\": \"false\"\n            },\n            {\n                \"codeDisease\": \"2\",\n                \"nameDisease\": \"ไข้หวัดใหญ่\",\n                \"otherDisease\": \"\",\n                \"selected\": \"true\"\n            },\n            {\n                \"codeDisease\": \"3\",\n                \"nameDisease\": \"หลอดลมอักเสบ\",\n                \"otherDisease\": \"\",\n                \"selected\": \"false\"\n            },\n            {\n                \"codeDisease\": \"4\",\n                \"nameDisease\": \"คออักเสบเฉียบพลัน\",\n                \"otherDisease\": \"\",\n                \"selected\": \"false\"\n            },\n            {\n                \"codeDisease\": \"5\",\n                \"nameDisease\": \"กระเพาะอาหารอักเสบ\",\n                \"otherDisease\": \"\",\n                \"selected\": \"false\"\n            },\n            {\n                \"codeDisease\": \"6\",\n                \"nameDisease\": \"ทอนซิลอักเสบ\",\n                \"otherDisease\": \"\",\n                \"selected\": \"false\"\n            },\n            {\n                \"codeDisease\": \"7\",\n                \"nameDisease\": \"ไข้หวัด\",\n                \"otherDisease\": \"\",\n                \"selected\": \"false\"\n            },\n            {\n                \"codeDisease\": \"8\",\n                \"nameDisease\": \"ปวดศีรษะ\",\n                \"otherDisease\": \"\",\n                \"selected\": \"false\"\n            },\n            {\n                \"codeDisease\": \"9\",\n                \"nameDisease\": \"ปอดอักเสบ\",\n                \"otherDisease\": \"\",\n                \"selected\": \"false\"\n            },\n            {\n                \"codeDisease\": \"10\",\n                \"nameDisease\": \"ไข้เลือดออก\",\n                \"otherDisease\": \"\",\n                \"selected\": \"false\"\n            },\n            {\n                \"codeDisease\": \"11\",\n                \"nameDisease\": \"อื่นๆ\",\n                \"otherDisease\": \"โรคมะเร็งลำไส้\",\n                \"selected\": \"false\"\n            }\n        ]\n    }\n}"
+				},
+				"url": {
+					"raw": "{{Server}}/MemberProfileService/UpdateDiseaseRegularly/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"MemberProfileService",
+						"UpdateDiseaseRegularly",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MEMBER06 [UpdateContact] - NOT USED",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n   \"headerData\": {\n       \"messageId\": \"3fe0a3c63603b7ea\",\n       \"sentDateTime\": \"03-11-2017 09:08:18.066\",\n       \"responseDateTime\": \"15-11-2019T14:05:35.384\"\n       },\n    \"requestRecord\": {\n       \"customer_id\":\"6042995\",\n       \"mobile_no\":\"0997895862\",\n       \"email_address\":\"t123d4@gmail.com\"\n    }\n}"
+				},
+				"url": {
+					"raw": "{{Server}}/MemberProfileService/UpdateContact/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"MemberProfileService",
+						"UpdateContact",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MEMBER12 [LookupIncomeRange] - NOT USED",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"headerData\": {\n        \"messageId\": \"5466426\",\n        \"sentDateTime\": \"11-12-2018T11:18:43.131\",\n        \"responseDateTime\": \"08-11-2019T09:30:04.175\"\n    },\n    \"responseRecord\": [\n        {\n            \"customer_id\": \"6042995\",\n            \"emergencyContact\": [\n                {\n                    \"fname\": \"ศักดา\",\n                    \"lname\": \"หล่อ\",\n                    \"mobile\": \"0830849999\",\n                    \"code\": 2,\n                    \"relationship\": \"ภรรยา\"\n                }\n            ]\n        }\n    ]\n}"
+				},
+				"url": {
+					"raw": "{{Server}}/MemberProfileService/UpdateEmergencyContact/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"MemberProfileService",
+						"UpdateEmergencyContact",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MEMBER14 [LookupFavoriteActivity] - NOT USED",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"headerData\": {\n          \"messageId\": \"5466426\",\n        \"sentDateTime\": \"11-12-2018T11:18:43.131\",\n        \"responseDateTime\": \"04-01-2019T08:53:35.014\"\n     \n    },\n     \"requestRecord\": {\n        \n     }\n}"
+				},
+				"url": {
+					"raw": "{{Server}}/MemberProfileService/LookupFavoriteActivity/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"MemberProfileService",
+						"LookupFavoriteActivity",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MEMBER15 [LookupHospitalRegularly] - NOT USED",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": false
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"headerData\": {\n          \"messageId\": \"5466426\",\n        \"sentDateTime\": \"11-12-2018T11:18:43.131\",\n        \"responseDateTime\": \"04-01-2019T08:53:35.014\"\n     \n    },\n     \"requestRecord\": {\n        \n     }\n}"
+				},
+				"url": {
+					"raw": "{{Server}}/MemberProfileService/LookupHospitalRegularly/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"MemberProfileService",
+						"LookupHospitalRegularly",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "oauth2",
+		"oauth2": [
+			{
+				"key": "accessToken",
+				"value": "121c5ec1-ae52-3fb7-8006-472aa6091f5d",
+				"type": "string"
+			},
+			{
+				"key": "tokenType",
+				"value": "Bearer",
+				"type": "string"
+			},
+			{
+				"key": "addTokenTo",
+				"value": "header",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "35cf1fb7-6041-4829-aa1f-5d4d80975f7a",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "64299f19-dc84-4c09-ba47-a612e7016f35",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

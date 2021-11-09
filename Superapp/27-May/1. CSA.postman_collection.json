@@ -1,0 +1,744 @@
+{
+	"info": {
+		"_postman_id": "9d37accf-535d-4b4a-a275-005cdee09bec",
+		"name": "1. CSA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CSA-01 (CheckExistingCustomer)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"disabled": false
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 7223c43c-fd0d-3b54-bdf3-1100600c2733",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"headerData\": {\r\n        \"messageId\": \"123456789191\",\r\n        \"sentDateTime\": \"11-12-2018T11:18:43.131\",\r\n        \"responseDateTime\": \"04-01-2019T08:53:35.014\"\r\n    },\r\n  \"requestRecord\":     {\r\n      \"govt_id\":\"3421000261116\"      ,      \r\n      \"policy_no\":\"31330522\"        \r\n      }\r\n}\r\n\r\n\t\r\n"
+				},
+				"url": {
+					"raw": "{{Server}}/CsaService/rest/csa/CheckExistingCustomer/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"CsaService",
+						"rest",
+						"csa",
+						"CheckExistingCustomer",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CSA-02 (CheckDopa)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 7223c43c-fd0d-3b54-bdf3-1100600c2733"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"headerData\": {\r\n        \"messageId\": \"123456789191\",\r\n        \"sentDateTime\": \"11-12-2018T11:18:43.131\",\r\n        \"responseDateTime\": \"04-01-2019T08:53:35.014\"\r\n    },\r\n  \"requestRecord\":     {\r\n      \"govt_id\":\"0830836322\"      ,      \r\n      \"first_name\":\"ชื่อ\"     ,      \r\n      \"last_name\":\"สกุล\"     ,          \r\n      \"birth_date\":\"25310717\"  ,           \r\n      \"laser_code\":\"JS9999999999\"  \r\n      }\r\n}"
+				},
+				"url": {
+					"raw": "{{Server}}/CsaService/rest/csa/CheckDopa/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"CsaService",
+						"rest",
+						"csa",
+						"CheckDopa",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CSA-03 (InquireVerifyQuestion)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 7223c43c-fd0d-3b54-bdf3-1100600c2733"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"headerData\": {\r\n        \"sentDateTime\": \"03-11-2017 09:08:18.066\",\r\n        \"messageId\": \"3fe0a3c63603b7ea\"\r\n    },\r\n    \"requestRecord\": {\r\n        \"choice_num\": \"1\",\r\n        \"govt_id\": \"3331001019905\",\r\n        \"policy_no\": \"32349552\"\r\n    }\r\n}"
+				},
+				"url": {
+					"raw": "{{Server}}/CsaService/rest/csa/InquireVerifyQuestion/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"CsaService",
+						"rest",
+						"csa",
+						"InquireVerifyQuestion",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CSA-04 (CheckQuestionResults)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 7223c43c-fd0d-3b54-bdf3-1100600c2733"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"headerData\": {\r\n        \"messageId\": \"3fe0a3c63603b7ea\",\r\n        \"sentDateTime\": \"03-11-2017 09:08:18.066\",\r\n        \"responseDateTime\": \"\"\r\n        },   \r\n        \"requestRecord\": {\r\n        \"govt_id\": \"1100400339654\",\r\n        \"policy_no\":\"22817273\",\r\n           \"list_of_answer\" :\r\n            [ \r\n                  {  \r\n                          \"question_id\": \"2\",\r\n                          \"answer\": \"1000\"\r\n                  },\r\n                  {  \r\n                          \"question_id\": \"3\",\r\n                          \"answer\": \"540000\"\r\n                  }\r\n            ]\r\n        }\r\n}"
+				},
+				"url": {
+					"raw": "{{Server}}/CsaService/rest/csa/CheckQuestionResults/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"CsaService",
+						"rest",
+						"csa",
+						"CheckQuestionResults",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CSA-05 (LockUserAccount)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 7223c43c-fd0d-3b54-bdf3-1100600c2733"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"headerData\": {\r\n        \"messageId\": \"3fe0a3c63603b7ea\",\r\n        \"sentDateTime\": \"03-11-2017 09:08:18.066\"\r\n    },\r\n    \"requestRecord\": {\r\n        \"customer_id\": \"2221465\",\r\n        \"status\": \"LOCK\"\r\n    }\r\n}"
+				},
+				"url": {
+					"raw": "{{Server}}/CsaService/rest/csa/LockUserAccount/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"CsaService",
+						"rest",
+						"csa",
+						"LockUserAccount",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CSA-06 (RegisterMember)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 7223c43c-fd0d-3b54-bdf3-1100600c2733"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"headerData\": {\r\n        \"messageId\": \"3fe0a3c63603b7ea\",\r\n        \"sentDateTime\": \"03-11-2017 09:08:18.066\"\r\n    },\r\n    \"requestRecord\": {\r\n        \"customer_id\": \"1111\",\r\n        \"first_name\": \"MITSXXX\",\r\n        \"last_name\": \"XXX\",\r\n        \"birth_date\": \"24980122\",\r\n        \"mobile_no\": \"0880152633\",\r\n        \"email\": \"teeranui.kaewyut@thailife.com\",\r\n        \"password\": \"Df252WQa\"\r\n    }\r\n}"
+				},
+				"url": {
+					"raw": "{{Server}}/CsaService/rest/csa/RegisterMember/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"CsaService",
+						"rest",
+						"csa",
+						"RegisterMember",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CSA-07 (LoginCsa)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 7223c43c-fd0d-3b54-bdf3-1100600c2733"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"headerData\": {\r\n        \"messageId\": \"3fe0a3c63603b7ea\",\r\n        \"sentDateTime\": \"03-11-2017 09:08:18.066\"\r\n    },\r\n    \"requestRecord\": {\r\n        \"username\": \"3459900043902\",\r\n        \"user_type\": \"citizenID\",\r\n        \"password\": \"Passw0rd\",\r\n        \"app_id\": \"1\",\r\n        \"device_id\": \"57c922b93e55078a\",\r\n        \"os\": \"Andriod\",\r\n        \"os_version\": \"9\",\r\n        \"model\": \"Android SDK built for x86 (goldfish_x86)\"\r\n    }\r\n}"
+				},
+				"url": {
+					"raw": "{{Server}}/CsaService/rest/csa/LoginCsa/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"CsaService",
+						"rest",
+						"csa",
+						"LoginCsa",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CSA-08 (SetPincode)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 7223c43c-fd0d-3b54-bdf3-1100600c2733"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"headerData\": {\r\n        \"messageId\": \"3fe0a3c63603b7ea\",\r\n        \"sentDateTime\": \"03-11-2017 09:08:18.066\"\r\n        },\r\n     \"requestRecord\": {\r\n        \"customer_id\":\"7210897\", \r\n        \"device_id\":\"57c922b93e55078a\",\r\n        \"pincode\":\"578878\"\r\n     }\r\n}"
+				},
+				"url": {
+					"raw": "{{Server}}/CsaService/rest/csa/SetPincode/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"CsaService",
+						"rest",
+						"csa",
+						"SetPincode",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CSA-09 (LoginPIN)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 7223c43c-fd0d-3b54-bdf3-1100600c2733"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"headerData\": {\r\n        \"messageId\": \"3fe0a3c63603b7ea\",\r\n        \"sentDateTime\": \"03-11-2017 09:08:18.066\"\r\n        },\r\n     \"requestRecord\": {\r\n        \"customer_id\":\"7210897\", \r\n        \"device_id\":\"57c922b93e55078a\",\r\n        \"pincode\":\"578878\"\r\n     }\r\n}"
+				},
+				"url": {
+					"raw": "{{Server}}/CsaService/rest/csa/LoginPIN/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"CsaService",
+						"rest",
+						"csa",
+						"LoginPIN",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CSA-10 (ForgotPassword)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 7223c43c-fd0d-3b54-bdf3-1100600c2733"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"headerData\": {\r\n        \"messageId\": \"3fe0a3c63603b7ea\",\r\n        \"sentDateTime\": \"03-11-2017 09:08:18.066\"\r\n    },\r\n    \"requestRecord\": {\r\n        \"username\": \"0800800800\",\r\n        \"user_type\": \"mobile\",\r\n        \"policy_no\": \"33226557\"\r\n    }\r\n}        "
+				},
+				"url": {
+					"raw": "{{Server}}/CsaService/rest/csa/ForgotPassword/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"CsaService",
+						"rest",
+						"csa",
+						"ForgotPassword",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CSA-11 (SetPassword)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"headerData\": {\n        \"messageId\": \"3fe0a3c63603b7ea\",\n        \"sentDateTime\": \"03-11-2017 09:08:18.066\",\n        \"responseDateTime\": \"\"\n    },\n    \"requestRecord\": {\n        \"customer_id\": \"3\",\n        \"password\": \"newpassword\",\n        \"retype_password\": \"newpassword\"\n    } \n}"
+				},
+				"url": {
+					"raw": "{{Server}}/CsaService/rest/csa/SetPassword/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"CsaService",
+						"rest",
+						"csa",
+						"SetPassword",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CSA-12 (ForgotPIN)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"headerData\": {\n    \"messageId\": \"3fe0a3c63603b7ea\",\n    \"sentDateTime\": \"03-11-2017 09:08:18.066\"\n  },\n  \"requestRecord\": {\n    \"customer_id\": \"1\",\n    \"device_id\": \"777AAAA\"\n  }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server}}/CsaService/rest/csa/ForgotPIN/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"CsaService",
+						"rest",
+						"csa",
+						"ForgotPIN",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CSA-14 (LockPIN)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"headerData\": {\n        \"messageId\": \"3fe0a3c63603b7ea\",\n        \"sentDateTime\": \"03-11-2017 09:08:18.066\"\n        },\n     \"requestRecord\": {\n        \"customer_id\":\"1\", \n        \"device_id\":\"777AAAA\",\n        \"status\":\"2\"\n     }\n}   ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server}}/CsaService/rest/csa/LockPIN/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"CsaService",
+						"rest",
+						"csa",
+						"LockPIN",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CSA-15 (CheckStatusDevice)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"headerData\": {\n        \"messageId\": \"3fe0a3c63603b7ea\",\n        \"sentDateTime\": \"03-11-2017 09:08:18.066\"\n        },\n     \"requestRecord\": {\n        \"customer_id\":\"1\", \n        \"device_id\":\"777AAAA\"\n     }\n}               ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server}}/CsaService/rest/csa/CheckStatusDevice/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"CsaService",
+						"rest",
+						"csa",
+						"CheckStatusDevice",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CSA-16 (ChangePinCode)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"headerData\": {\n        \"messageId\": \"3fe0a3c63603b7ea\",\n        \"sentDateTime\": \"03-11-2017 09:08:18.066\",\n        \"responseDateTime\": \"\"\n        },   \n        \"requestRecord\": {  \n                          \"customer_id\": \"884034\",\n                          \"device_id\": \"J32000GUDXU3\",\n                          \"pincode\": \"222223\",\n                          \"pincode_new\": \"222222\"\n                  }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server}}/CsaService/rest/csa/ChangePincode/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"CsaService",
+						"rest",
+						"csa",
+						"ChangePincode",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CSA-17 (ChangePassword)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"headerData\": {\n        \"messageId\": \"3fe0a3c63603b7ea\",\n        \"sentDateTime\": \"03-11-2017 09:08:18.066\",\n        \"responseDateTime\": \"\"\n        },   \n        \"requestRecord\": {  \n                          \"customer_id\": \"1\",\n                          \"password\": \"123asdASD\",\n                          \"password_new\": \"123qweASD\"\n                  }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server}}/CsaService/rest/csa/ChangePassword/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"CsaService",
+						"rest",
+						"csa",
+						"ChangePassword",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CSA-18 (LockAccount)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"headerData\": {\n        \"messageId\": \"3fe0a3c63603b7ea\",\n        \"sentDateTime\": \"03-11-2017 09:08:18.066\"\n    },\n    \"requestRecord\": {\n        \"customer_id\": \"6042995\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server}}//CsaService/rest/csa/LockAccount/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"",
+						"CsaService",
+						"rest",
+						"csa",
+						"LockAccount",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CSA-19 (DeleteDevice)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"headerData\": {\n        \"messageId\": \"123456789191\",\n        \"sentDateTime\": \"2019-12-17 11:59:16\"\n    },\n    \"requestRecord\": {\n        \"customer_id\": \"2221465\",\n        \"device_id\": \"AB0001580\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server}}/CsaService/rest/csa/DeleteDevice/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"CsaService",
+						"rest",
+						"csa",
+						"DeleteDevice",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CSA-20 (CheckMember)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"headerData\": {\n        \"messageId\": \"123456789191\",\n        \"sentDateTime\": \"2019-12-17 11:59:16\"\n    },\n    \"requestRecord\": {\n        \"username\": \"3120399951551\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server}}/CsaService/rest/csa/CheckMember/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"CsaService",
+						"rest",
+						"csa",
+						"CheckMember",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CSA-21 (CheckSaleMobile)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"headerData\": {\n        \"messageId\": \"123456789191\",\n        \"sentDateTime\": \"2019-12-17 11:59:16\"\n    },\n    \"requestRecord\": {\n        \"mobile_no\": \"0984831443\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server}}/webSales/rest/searchData/searchsalesmobile/ ",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"webSales",
+						"rest",
+						"searchData",
+						"searchsalesmobile",
+						" "
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CSA-22 (CheckMobileFlag)",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "ad05a30a-181d-3687-a995-de310ad13be8",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "Bearer",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"headerData\": {\n        \"messageId\": \"123456789191\",\n        \"sentDateTime\": \"2019-12-17 11:59:16\"\n    },\n    \"requestRecord\": {\n        \"customer_id\": \"\",\n        \"govt_id\": \"3120399951551\",\n        \"mobile_no\" : \"0877512345\",\n        \"screen_type\" : \"1\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{Server}}/CsaService/rest/csa/ChangeMobileFlag/1.0",
+					"host": [
+						"{{Server}}"
+					],
+					"path": [
+						"CsaService",
+						"rest",
+						"csa",
+						"ChangeMobileFlag",
+						"1.0"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "oauth2",
+		"oauth2": [
+			{
+				"key": "accessToken",
+				"value": "8d4e34fb-8fb8-3fdc-9427-d833c7946f14",
+				"type": "string"
+			},
+			{
+				"key": "tokenType",
+				"value": "Bearer",
+				"type": "string"
+			},
+			{
+				"key": "addTokenTo",
+				"value": "header",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "06a57a7b-12a3-42f7-9110-cd893257f1af",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "092c50ed-b4a7-41a5-9ab7-efca5fda157e",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,20 @@
+curl--location--request POST 'https: //uat-tlproplus-api.thailife.com/interfaceDFL/rest/productfilter/1.0'\
+    --header 'Content-Type: application/json'\
+    --header 'Authorization: Bearer e2c66ec3-5cc5-33fd-89a7-058dcd8b23d6'\
+    --data - raw '{
+"body": {
+    "data": {
+        "customer_sex": "M",
+        "customer_birth": "17/02/2526",
+        "customer_occ": 1,
+        "flag": "ol",
+        "branchRegion": "",
+        "branchGroup": "Admin"
+    }
+},
+"headers": {
+    "messageId": "1c9429a3-3acd-437f-9baa-766fc0bb46fb",
+    "sentDateTime": "2020-11-02 08:59:48"
+}
+}
+'

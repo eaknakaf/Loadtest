@@ -1,0 +1,4 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+gettoken,1,319,319,319,0.00,0.000%,3.13480,1.78,1.65,581.0
+https://uat-tlproplus-api.thailife.com/TLPromptBackendWs/1.0/rest/quotationPdf/quotationPdfServiceV2,1506,26633,387,60256,22361.96,24.768%,4.17065,954.29,26.18,234303.2
+TOTAL,1507,26616,319,60256,22364.81,24.751%,4.16750,952.94,26.15,234148.1

@@ -1,0 +1,440 @@
+USERNAME,customer_id,Hospital_List1_code,Hospital_List1_name,Hospital_List2_code,Hospital_List2_name,address,phoneNo,mobileNo,phoneNoEx,email_address,updateAddress,updatePhoneNo,updateMobileNo,updatePhoneNoEx,updateEmail,Disease1,Disease2,Disease3
+1,10,1,โรงพยาบาลกรุงเทพ,141,โรงพยาบาลนครนายก,1,null,null,null,null,Y,N,N,N,N,TRUE,FALSE,FALSE
+2,20,2,โรงพยาบาลกรุงเทพคริสเตียน,142,ศูนย์การแพทย์สมเด็จพระเทพฯ,2,null,null,null,null,Y,N,N,N,N,FALSE,TRUE,FALSE
+3,42,3,โรงพยาบาลกล้วยน้ำไท,143,โรงพยาบาลนครปฐม,3,null,null,null,null,Y,N,N,N,N,FALSE,FALSE,TRUE
+4,66,4,โรงพยาบาลสมิติเวช ธนบุรี,144,โรงพยาบาลกรุงเทพคริสเตียน นครปฐม,4,null,null,null,null,Y,N,N,N,N,TRUE,FALSE,FALSE
+5,111,5,โรงพยาบาลเกษมราษฎร์ ประชาชื่น,145,โรงพยาบาลกรุงเทพสนามจันทร์,5,null,null,null,null,Y,N,N,N,N,FALSE,TRUE,FALSE
+6,707,6,โรงพยาบาลเกษมราษฎร์ บางแค,146,โรงพยาบาลเซนต์แมรี่,6,null,null,null,null,Y,N,N,N,N,FALSE,FALSE,TRUE
+7,1110,7,โรงพยาบาลเกษมราษฎร์ รามคำแหง,147,โรงพยาบาลกรุงเทพราชสีมา,7,null,null,null,null,Y,N,N,N,N,TRUE,FALSE,FALSE
+8,1111,8,โรงพยาบาลคามิลเลียน,148,โรงพยาบาลกรุงเทพปากช่อง,8,null,null,null,null,Y,N,N,N,N,FALSE,TRUE,FALSE
+9,1212,9,โรงพยาบาลคลองตัน,149,โรงพยาบาลมหาวิทยาลัยเทคโนโลยีสุรนารี,9,null,null,null,null,Y,N,N,N,N,FALSE,FALSE,TRUE
+10,1313,10,โรงพยาบาลสมิติเวชไชน่าทาวน์,150,โรงพยาบาลมหาราชนครศรีธรรมราช,null,21111111,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+11,1631,11,โรงพยาบาลเจ้าพระยา,151,โรงพยาบาลสิชล,null,21111112,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+12,2222,12,โรงพยาบาลเจริญกรุงประชารักษ์,152,โรงพยาบาลนครินทร์,null,21111113,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+13,2523,13,โรงพยาบาลจุฬาลงกรณ์ สภากาชาดไทย,153,โรงพยาบาลค่ายวชิราวุธ,null,21111114,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+14,2939,14,โรงพยาบาลจุฬาภรณ์,154,โรงพยาบาลนครพัฒน์,null,21111115,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+15,2977,15,โรงพยาบาลเซนต์หลุยส์,155,โรงพยาบาลรวมแพทย์ นครสวรรค์,null,21111116,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+16,3030,16,โรงพยาบาลซีจีเอช,156,โรงพยาบาลปากน้ำโพ,null,21111117,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+17,3333,17,โรงพยาบาลกรุงสยามเซนต์คาร์ลอส,157,โรงพยาบาลร่มฉัตร,null,21111118,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+18,3684,18,โรงพยาบาลตำรวจ,158,โรงพยาบาลปากน้ำโพ 2,null,21111119,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+19,3893,19,โรงพยาบาลตากสิน กรุงเทพมหานคร,159,โรงพยาบาลศรีสวรรค์,null,21111120,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+20,3939,20,โรงพยาบาลตา หู คอ จมูก,160,โรงพยาบาลนนทเวช,null,21111121,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+21,4063,21,โรงพยาบาลเทพธารินทร์,161,โรงพยาบาลวิภารามปากเกร็ด,null,21111122,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+22,4726,22,โรงพยาบาลไทยนครินทร์,162,โรงพยาบาลเกษมราษฎร์ อินเตอร์เนชันแนล รัตนาธิเบศร์,null,21111123,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+23,4973,23,โรงพยาบาลทหารผ่านศึก,163,โรงพยาบาลกรุงไทย,null,21111124,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+24,5248,24,โรงพยาบาลธนบุรี,164,โรงพยาบาลเวิลด์เมดิคอล,null,21111125,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+25,5387,25,โรงพยาบาลธนบุรี 2,165,โรงพยาบาลสุไหงโก-ลก,null,21111126,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+26,5607,26,โรงพยาบาลนครธน,166,โรงพยาบาลน่าน,null,21111127,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+27,5722,27,โรงพยาบาลนวมินทร์,167,โรงพยาบาลเอกชนบุรีรัมย์,null,21111128,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+28,6137,28,โรงพยาบาลนวมินทร์ 2,168,โรงพยาบาลบางปะกอกรังสิต 2,null,21111129,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+29,6634,29,โรงพยาบาลนวมินทร์ 9,169,โรงพยาบาลแพทย์รังสิต,null,21111130,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+30,6666,30,โรงพยาบาลสมิติเวช ธนบุรี,170,โรงพยาบาลปทุมเวช,null,21111131,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+31,7456,31,โรงพยาบาลบำรุงราษฎร์,171,โรงพยาบาลภัทร-ธนบุรี,null,21111132,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+32,7655,32,โรงพยาบาลบางไผ่,172,โรงพยาบาลเฉพาะทางแม่และเด็กแพทย์รังสิต,null,21111133,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+33,7777,33,โรงพยาบาลบางมด,173,โรงพยาบาลซานเปาโล หัวหิน,null,21111134,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+34,8030,34,โรงพยาบาล บี.แคร์ เมดิคอลเซ็นเตอร์,174,โรงพยาบาลกรุงเทพหัวหิน,null,21111135,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+35,8049,35,โรงพยาบาลบางโพ,175,โรงพยาบาลพะเยาราม,null,21111136,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+36,8522,36,โรงพยาบาลบางนา 1,176,โรงพยาบาลพังงา,null,21111137,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+37,9110,37,โรงพยาบาลบางนา 2,177,โรงพยาบาลตะกั่วป่า,null,21111138,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+38,9535,38,โรงพยาบาลเปาโลเมโมเรียล,178,โรงพยาบาลพัทลุง,null,21111139,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+39,9703,39,โรงพยาบาลปิยะเวท,179,โรงพยาบาลปิยะรักษ์,null,21111140,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+40,9999,40,โรงพยาบาลบางนา 3,180,โรงพยาบาลสหเวช,null,21111141,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+41,10351,41,โรงพยาบาลบางปะกอก 9 อินเตอร์เนชั่นแนล,181,โรงพยาบาลชัยอรุณเวชการ,null,21111142,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+42,13874,42,โรงพยาบาลบางปะกอก 8,182,โรงพยาบาลพิษณุเวช,null,21111143,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+43,14012,43,โรงพยาบาลพระมงกุฏเกล้า,183,โรงพยาบาลพิษณุโลก ฮอสพิทอล,null,21111144,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+44,14923,44,โรงพยาบาลพญาไท 1,184,โรงพยาบาลกรุงเทพพิษณุโลก,null,21111145,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+45,15441,45,โรงพยาบาลพญาไท 2,185,โรงพยาบาลเด็กกรุงเทพพิษณุโลก,null,21111146,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+46,15743,46,โรงพยาบาลเพชรเวช,186,คณะแพทยศาสตร์ มหาวิทยาลัยนเรศวร,null,21111147,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+47,16567,47,โรงพยาบาลแพทย์ปัญญา,187,โรงพยาบาลมหาชัยเพชรรัชต์,null,21111148,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+48,16735,48,โรงพยาบาลพระราม 2,188,โรงพยาบาลกรุงเทพเพชรบุรี,null,21111149,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+49,26685,49,โรงพยาบาลภูมิพลอดุลยเดช กรมแพทย์ทหารอากาศ,189,โรงพยาบาลเพชรบูรณ์,null,21111150,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+50,29294,50,โรงพยาบาลเพชรเกษม 2,190,โรงพยาบาลเพชรรัตน์,null,21111151,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+51,34730,51,โรงพยาบาลพญาไท 3,191,โรงพยาบาลแพร่คริสเตียน,null,21111152,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+52,40290,52,โรงพยาบาลบางปะกอก 1,192,โรงพยาบาลแพร่ราม,null,21111153,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+53,50622,53,โรงพยาบาลพระรามเก้า,193,โรงพยาบาลวชิระภูเก็ต,null,21111154,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+54,64338,54,โรงพยาบาล บีเอ็นเอช,194,โรงพยาบาลมิชชั่นภูเก็ต,null,21111155,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+55,69683,55,โรงพยาบาลผิวหนังอโศก,195,โรงพยาบาลสิริโรจน์,null,21111156,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+56,99900,56,โรงพยาบาลมิชชั่น,196,โรงพยาบาลกรุงเทพภูเก็ต,null,21111157,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+57,104721,57,โรงพยาบาลเปาโล เกษตร,197,โรงพยาบาลดีบุก,null,21111158,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+58,109715,58,โรงพยาบาลมิตรภาพ วงเวียนใหญ่,198,โรงพยาบาลมหาสารคามอินเตอร์เนชันแนล,null,21111159,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+59,132619,59,โรงพยาบาลมงกุฎวัฒนะ,199,โรงพยาบาลนายแพทย์หาญ,null,21111160,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+60,152652,60,โรงพยาบาลยันฮี,200,โรงพยาบาลสิโรรส,null,21111161,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+61,157977,61,โรงพยาบาลรามคำแหง,201,โรงพยาบาลจุรีเวช,null,21111162,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+62,163637,62,โรงพยาบาลราชวิถี,202,โรงพยาบาลร้อยเอ็ด-ธนบุรี,null,21111163,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+63,172681,63,โรงพยาบาลราษฎร์บูรณะ,203,โรงพยาบาลระนอง,null,21111164,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+64,177114,64,โรงพยาบาลรามาธิบดี,204,โรงพยาบาลมงกุฎระยอง,null,21111165,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+65,188928,65,โรงพยาบาลลาดพร้าว,205,โรงพยาบาลกรุงเทพระยอง,null,21111166,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+66,259737,66,โรงพยาบาลเลิดสิน,206,โรงพยาบาลดำเนินสะดวก,null,21111167,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+67,290323,67,คณะแพทยศาสตร์วชิรพยาบาล มหาวิทยาลัยนวมินทราธิราช,207,โรงพยาบาลมหาชัยพร้อมแพทย์,null,21111168,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+68,301452,68,โรงพยาบาลวิภาวดี,208,โรงพยาบาลซานคามิลโล,null,21111169,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+69,301991,69,โรงพยาบาลวิชัยยุทธ,209,โรงพยาบาลกรุงเทพเมืองราช,null,21111170,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+70,320058,70,โรงพยาบาลเวชธานี,210,โรงพยาบาลเบญจรมย์,null,21111171,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+71,357057,71,โรงพยาบาลวิภาราม,211,โรงพยาบาลเมืองนารายณ์,null,21111172,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+72,361924,72,โรงพยาบาลเวชศาสตร์เขตร้อน,212,โรงพยาบาลลำปาง,null,21111173,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+73,363592,73,โรงพยาบาลสมิติเวช สุขุมวิท,213,โรงพยาบาลเขลางค์นคร-ราม,null,21111174,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+74,368700,74,โรงพยาบาลเปาโลเมโมเรียล โชคชัย4,214,โรงพยาบาลหริภุญชัยเมโมเรียล,null,21111175,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+75,392245,75,โรงพยาบาลสุขุมวิท,215,โรงพยาบาลศิริเวช ลำพูน,null,21111176,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+76,469437,76,โรงพยาบาลสมเด็จพระปิ่นเกล้า,216,โรงพยาบาลเมืองเลยราม,null,21111177,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+77,490135,77,โรงพยาบาลสมเด็จพระปิ่นเกล้า,217,โรงพยาบาลประชารักษ์เวชการ,null,21111178,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+78,491175,78,โรงพยาบาลสินแพทย์,218,โรงพยาบาลรักษ์สกล,null,21111179,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+79,511539,79,โรงพยาบาลสมิติเวช ศรีนครินทร์,219,โรงพยาบาลสงขลา,null,21111180,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+80,602516,80,โรงพยาบาลสายไหม,220,โรงพยาบาลหาดใหญ่,null,21111181,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+81,626314,81,โรงพยาบาลเสรีรักษ์,221,โรงพยาบาลราษฎร์ยินดี,null,21111182,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+82,647542,82,โรงพยาบาลศิริราช,222,โรงพยาบาลกรุงเทพหาดใหญ่,null,21111183,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+83,717697,83,โรงพยาบาลวิชัยเวชอินเตอร์เนชั่นแนล หนองแขม,223,โรงพยาบาลศิครินทร์หาดใหญ่,null,21111184,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+84,725888,84,โรงพยาบาลพญาไท นวมินทร์,224,โรงพยาบาลเปาโลพระประแดง,null,21111185,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+85,744132,85,โรงพยาบาลศิครินทร์,225,โรงพยาบาลบางปะกอก 3,null,21111186,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+86,753044,86,โรงพยาบาลศิริราช ปิยมหาราชการุณย์,226,โรงพยาบาลสำโรงการแพทย์,null,21111187,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+87,830043,87,โรงพยาบาลสมิติเวช สุวรรณภูมิ,227,โรงพยาบาลเมืองสมุทรปากน้ำ,null,21111188,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+88,909588,88,โรงพยาบาลสมิติเวช สุวรรณภูมิ,228,โรงพยาบาลเปาโลเมโมเรียลสมุทรปราการ,null,21111189,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+89,914580,89,โรงพยาบาลหัวเฉียว,229,โรงพยาบาลรวมชัยประชารักษ์,null,21111190,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+90,919148,90,โรงพยาบาลกระบี่,230,โรงพยาบาลรัทรินทร์,null,21111191,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+91,968985,91,โรงพยาบาลกระบี่นครินทร์ อินเตอร์เนชั่นแนล (B.O.I),231,โรงพยาบาลจุฬารัตน์ 9 แอร์พอร์ต,null,21111192,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+92,999001,92,โรงพยาบาลกาญจนบุรีเมโมเรียล,232,โรงพยาบาลจุฬารัตน์ 3,null,21111193,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+93,1017232,93,โรงพยาบาลธนกาญจน์,233,โรงพยาบาลสินแพทย์ เทพารักษ์,null,21111194,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+94,1025600,94,โรงพยาบาลเอกชนเมืองกำแพง,234,โรงพยาบาลบางปะกอก สมุทรปราการ,null,21111195,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+95,1043438,95,โรงพยาบาลเกษมราษฎร์ รามคำแหง,235,โรงพยาบาลพรินซ์ สุวรรณภูมิ,null,21111196,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+96,1109904,96,โรงพยาบาลศรีนครินทร์ มหาวิทยาลัยขอนแก่น,236,โรงพยาบาลสมเด็จพระพุทธเลิศหล้า,null,21111197,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+97,1145928,97,โรงพยาบาลขอนแก่น ราม,237,โรงพยาบาลมหาชัยแม่กลอง,null,21111198,null,null,null,N,N,Y,N,N,TRUE,FALSE,FALSE
+98,1154667,98,โรงพยาบาลราชพฤกษ์ ขอนแก่น,238,โรงพยาบาลสมุทรสาคร,null,21111199,null,null,null,N,N,Y,N,N,FALSE,TRUE,FALSE
+99,1178680,99,โรงพยาบาลกรุงเทพขอนแก่น,239,โรงพยาบาลเอกชัย,null,21111200,null,null,null,N,N,Y,N,N,FALSE,FALSE,TRUE
+100,1181364,100,โรงพยาบาลพระปกเกล้า,240,โรงพยาบาลมหาชัย 1,null,null,985511111,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+101,1205637,101,โรงพยาบาลกรุงเทพจันทบุรี,241,โรงพยาบาลวิชัยเวช อินเตอร์เนชั่นแนล อ้อมน้อย,null,null,985511112,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+102,1216231,102,โรงพยาบาลสิริเวช,242,โรงพยาบาลวิชัยเวช อินเตอร์เนชั่นแนล สมุทรสาคร,null,null,985511113,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+103,1270981,103,โรงพยาบาลจุฬารัตน์ 11 อินเตอร์,243,โรงพยาบาลมหาชัย 2,null,null,985511114,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+104,1353667,104,โรงพยาบาลเกษมราษฎร์ ฉะเชิงเทรา,244,โรงพยาบาลบ้านแพ้ว(องค์การมหาชน),null,null,985511115,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+105,1379767,105,โรงพยาบาลชลบุรี,245,โรงพยาบาลเกษมราษฎร์ สระบุรี,null,null,985511116,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+106,1450184,106,โรงพยาบาลกรุงเทพพัทยา,246,โรงพยาบาลมิตรภาพเมโมเรียล,null,null,985511117,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+107,1452124,107,โรงพยาบาลพญาไท ศรีราชา,247,โรงพยาบาลพระพุทธบาท,null,null,985511118,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+108,1553318,108,โรงพยาบาลเอกชล 2,248,โรงพยาบาลสิงห์บุรี,null,null,985511119,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+109,1615885,109,โรงพยาบาลเอกชล(ชลบุรี),249,โรงพยาบาลสิงห์บุรีเวชชการ (หมอประเจิด),null,null,985511120,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+110,1740159,110,โรงพยาบาลพัทยาเมโมเรียล,250,โรงพยาบาลสุโขทัย,null,null,985511121,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+111,1813224,111,โรงพยาบาลสมิติเวช ศรีราชา,251,โรงพยาบาลรวมแพทย์สุโขทัย,null,null,985511122,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+112,1850589,112,โรงพยาบาลปิยะเวชช์ บ่อวิน,252,โรงพยาบาลพัฒนเวช สุโขทัย,null,null,985511123,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+113,1863617,113,โรงพยาบาลวิภาราม อมตะนคร,253,โรงพยาบาลเจ้าพระยายมราช,null,null,985511124,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+114,1867213,114,โรงพยาบาลสมิติเวช ชลบุรี,254,โรงพยาบาลศุภมิตร,null,null,985511125,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+115,2037011,115,โรงพยาบาลรวมแพทย์ชัยนาท,255,โรงพยาบาลวิภาวดี-ปิยราษฎร์,null,null,985511126,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+116,2037066,116,โรงพยาบาลชัยภูมิ-ราม,256,โรงพยาบาลธนบุรี-อู่ทอง,null,null,985511127,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+117,2037068,117,โรงพยาบาลชุมพรเขตรอุดมศักดิ์,257,โรงพยาบาลพรชัย,null,null,985511128,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+118,2037399,118,โรงพยาบาลวิรัชศิลป์,258,โรงพยาบาลเกาะสมุย,null,null,985511129,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+119,2112953,119,โรงพยาบาลธนบุรี ชุมพร,259,โรงพยาบาลทักษิณ,null,null,985511130,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+120,2125642,120,โรงพยาบาลโอเวอร์บรู๊ค,260,โรงพยาบาลศรีวิชัยสุราษฎร์ธานี,null,null,985511131,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+121,2127696,121,โรงพยาบาลเกษมราษฎร์ศรีบุรินทร์,261,โรงพยาบาลบ้านดอนอินเตอร์,null,null,985511132,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+122,2272643,122,โรงพยาบาลเชียงรายอินเตอร์,262,โรงพยาบาลกรุงเทพสมุย,null,null,985511133,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+123,2299210,123,โรงพยาบาลมหาลัยแม่ฟ้าหลวง,263,โรงพยาบาลไทยอินเตอร์เนชั่นแนล(เกาะสมุย),null,null,985511134,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+124,2318695,124,โรงพยาบาลมหาราชนครเชียงใหม่,264,โรงพยาบาลเฟิร์สเวสเทอร์น,null,null,985511135,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+125,2363532,125,ศูนย์ศรีพัฒน์คณะแพทยศาสตร์ มช.,265,โรงพยาบาลกรุงเทพสุราษฎร์,null,null,985511136,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+126,2409849,126,โรงพยาบาลราชเวช เชียงใหม่,266,โรงพยาบาลหนองคาย,null,null,985511137,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+127,2501402,127,โรงพยาบาลแมคคอร์มิค,267,โรงพยาบาลหนองคาย-วัฒนา,null,null,985511138,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+128,2501473,128,โรงพยาบาลลานนา,268,โรงพยาบาลรวมแพทย์หนองคาย,null,null,985511139,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+129,2501689,129,โรงพยาบาลเชียงใหม่ราม 1,269,โรงพยาบาลสมเด็จพระยุพราชท่าบ่อ,null,null,985511140,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+130,2501790,130,โรงพยาบาลเชียงใหม่ฮอสพิทอล,270,โรงพยาบาลพิสัยเวช,null,null,985511141,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+131,2501861,131,โรงพยาบาลเทพปัญญา,271,โรงพยาบาลราชธานี,null,null,985511142,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+132,2501884,132,โรงพยาบาลกรุงเทพเชียงใหม่,272,โรงพยาบาลศุภมิตรเสนา,null,null,985511143,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+133,2502003,133,โรงพยาบาลตราด,273,โรงพยาบาลพีรเวช,null,null,985511144,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+134,2502100,134,โรงพยาบาลกรุงเทพตราด,274,โรงพยาบาลอ่างทอง,null,null,985511145,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+135,2609837,135,โรงพยาบาลตรัง,275,โรงพยาบาลอ่างทองเวชชการ 2,null,null,985511146,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+136,2651760,136,โรงพยาบาลตรังรวมแพทย์,276,โรงพยาบาลเอกอุดร,null,null,985511147,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+137,2656130,137,โรงพยาบาลวัฒนแพทย์,277,โรงพยาบาลนอร์ทอีสเทอร์น-วัฒนา,null,null,985511148,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+138,2658374,138,โรงพยาบาลแม่สอด-ราม,278,โรงพยาบาลกรุงเทพอุดร,null,null,985511149,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+139,2658791,139,โรงพยาบาลแม่สอด,279,โรงพยาบาลทัพทัน,null,null,985511150,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+140,2765679,140,โรงพยาบาลนครแม่สอด อินเตอร์เนชั่นแนล,280,โรงพยาบาลอุบลรักษ์ ธนบุรี,null,null,985511151,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+141,2767917,1,โรงพยาบาลกรุงเทพ,141,โรงพยาบาลนครนายก,null,null,985511152,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+142,2902631,2,โรงพยาบาลกรุงเทพคริสเตียน,142,ศูนย์การแพทย์สมเด็จพระเทพฯ,null,null,985511153,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+143,2911553,3,โรงพยาบาลกล้วยน้ำไท,143,โรงพยาบาลนครปฐม,null,null,985511154,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+144,3058635,4,โรงพยาบาลสมิติเวช ธนบุรี,144,โรงพยาบาลกรุงเทพคริสเตียน นครปฐม,null,null,985511155,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+145,3070114,5,โรงพยาบาลเกษมราษฎร์ ประชาชื่น,145,โรงพยาบาลกรุงเทพสนามจันทร์,null,null,985511156,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+146,3093655,6,โรงพยาบาลเกษมราษฎร์ บางแค,146,โรงพยาบาลเซนต์แมรี่,null,null,985511157,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+147,3181804,7,โรงพยาบาลเกษมราษฎร์ รามคำแหง,147,โรงพยาบาลกรุงเทพราชสีมา,null,null,985511158,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+148,3247234,8,โรงพยาบาลคามิลเลียน,148,โรงพยาบาลกรุงเทพปากช่อง,null,null,985511159,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+149,3275444,9,โรงพยาบาลคลองตัน,149,โรงพยาบาลมหาวิทยาลัยเทคโนโลยีสุรนารี,null,null,985511160,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+150,3285159,10,โรงพยาบาลสมิติเวชไชน่าทาวน์,150,โรงพยาบาลมหาราชนครศรีธรรมราช,null,null,985511161,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+151,3294108,11,โรงพยาบาลเจ้าพระยา,151,โรงพยาบาลสิชล,null,null,985511162,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+152,3314763,12,โรงพยาบาลเจริญกรุงประชารักษ์,152,โรงพยาบาลนครินทร์,null,null,985511163,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+153,3315259,13,โรงพยาบาลจุฬาลงกรณ์ สภากาชาดไทย,153,โรงพยาบาลค่ายวชิราวุธ,null,null,985511164,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+154,3335917,14,โรงพยาบาลจุฬาภรณ์,154,โรงพยาบาลนครพัฒน์,null,null,985511165,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+155,3339936,15,โรงพยาบาลเซนต์หลุยส์,155,โรงพยาบาลรวมแพทย์ นครสวรรค์,null,null,985511166,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+156,3345133,16,โรงพยาบาลซีจีเอช,156,โรงพยาบาลปากน้ำโพ,null,null,985511167,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+157,3356237,17,โรงพยาบาลกรุงสยามเซนต์คาร์ลอส,157,โรงพยาบาลร่มฉัตร,null,null,985511168,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+158,3358613,18,โรงพยาบาลตำรวจ,158,โรงพยาบาลปากน้ำโพ 2,null,null,985511169,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+159,3392815,19,โรงพยาบาลตากสิน กรุงเทพมหานคร,159,โรงพยาบาลศรีสวรรค์,null,null,985511170,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+160,3397271,20,โรงพยาบาลตา หู คอ จมูก,160,โรงพยาบาลนนทเวช,null,null,985511171,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+161,3409616,21,โรงพยาบาลเทพธารินทร์,161,โรงพยาบาลวิภารามปากเกร็ด,null,null,985511172,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+162,3410626,22,โรงพยาบาลไทยนครินทร์,162,โรงพยาบาลเกษมราษฎร์ อินเตอร์เนชันแนล รัตนาธิเบศร์,null,null,985511173,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+163,3433889,23,โรงพยาบาลทหารผ่านศึก,163,โรงพยาบาลกรุงไทย,null,null,985511174,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+164,3465982,24,โรงพยาบาลธนบุรี,164,โรงพยาบาลเวิลด์เมดิคอล,null,null,985511175,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+165,3467903,25,โรงพยาบาลธนบุรี 2,165,โรงพยาบาลสุไหงโก-ลก,null,null,985511176,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+166,3472436,26,โรงพยาบาลนครธน,166,โรงพยาบาลน่าน,null,null,985511177,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+167,3494631,27,โรงพยาบาลนวมินทร์,167,โรงพยาบาลเอกชนบุรีรัมย์,null,null,985511178,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+168,3500069,28,โรงพยาบาลนวมินทร์ 2,168,โรงพยาบาลบางปะกอกรังสิต 2,null,null,985511179,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+169,3540117,29,โรงพยาบาลนวมินทร์ 9,169,โรงพยาบาลแพทย์รังสิต,null,null,985511180,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+170,3551663,30,โรงพยาบาลสมิติเวช ธนบุรี,170,โรงพยาบาลปทุมเวช,null,null,985511181,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+171,3568561,31,โรงพยาบาลบำรุงราษฎร์,171,โรงพยาบาลภัทร-ธนบุรี,null,null,985511182,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+172,3573704,32,โรงพยาบาลบางไผ่,172,โรงพยาบาลเฉพาะทางแม่และเด็กแพทย์รังสิต,null,null,985511183,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+173,3573990,33,โรงพยาบาลบางมด,173,โรงพยาบาลซานเปาโล หัวหิน,null,null,985511184,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+174,3627657,34,โรงพยาบาล บี.แคร์ เมดิคอลเซ็นเตอร์,174,โรงพยาบาลกรุงเทพหัวหิน,null,null,985511185,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+175,3645403,35,โรงพยาบาลบางโพ,175,โรงพยาบาลพะเยาราม,null,null,985511186,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+176,3658809,36,โรงพยาบาลบางนา 1,176,โรงพยาบาลพังงา,null,null,985511187,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+177,3659952,37,โรงพยาบาลบางนา 2,177,โรงพยาบาลตะกั่วป่า,null,null,985511188,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+178,3681580,38,โรงพยาบาลเปาโลเมโมเรียล,178,โรงพยาบาลพัทลุง,null,null,985511189,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+179,3698001,39,โรงพยาบาลปิยะเวท,179,โรงพยาบาลปิยะรักษ์,null,null,985511190,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+180,3700468,40,โรงพยาบาลบางนา 3,180,โรงพยาบาลสหเวช,null,null,985511191,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+181,3711264,41,โรงพยาบาลบางปะกอก 9 อินเตอร์เนชั่นแนล,181,โรงพยาบาลชัยอรุณเวชการ,null,null,985511192,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+182,3711818,42,โรงพยาบาลบางปะกอก 8,182,โรงพยาบาลพิษณุเวช,null,null,985511193,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+183,3736916,43,โรงพยาบาลพระมงกุฏเกล้า,183,โรงพยาบาลพิษณุโลก ฮอสพิทอล,null,null,985511194,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+184,3770829,44,โรงพยาบาลพญาไท 1,184,โรงพยาบาลกรุงเทพพิษณุโลก,null,null,985511195,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+185,3776396,45,โรงพยาบาลพญาไท 2,185,โรงพยาบาลเด็กกรุงเทพพิษณุโลก,null,null,985511196,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+186,3783514,46,โรงพยาบาลเพชรเวช,186,คณะแพทยศาสตร์ มหาวิทยาลัยนเรศวร,null,null,985511197,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+187,3784711,47,โรงพยาบาลแพทย์ปัญญา,187,โรงพยาบาลมหาชัยเพชรรัชต์,null,null,985511198,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+188,3789015,48,โรงพยาบาลพระราม 2,188,โรงพยาบาลกรุงเทพเพชรบุรี,null,null,985511199,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+189,3801140,49,โรงพยาบาลภูมิพลอดุลยเดช กรมแพทย์ทหารอากาศ,189,โรงพยาบาลเพชรบูรณ์,null,null,985511200,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+190,3815856,50,โรงพยาบาลเพชรเกษม 2,190,โรงพยาบาลเพชรรัตน์,null,null,985511201,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+191,3820789,51,โรงพยาบาลพญาไท 3,191,โรงพยาบาลแพร่คริสเตียน,null,null,985511202,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+192,3865674,52,โรงพยาบาลบางปะกอก 1,192,โรงพยาบาลแพร่ราม,null,null,985511203,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+193,3869021,53,โรงพยาบาลพระรามเก้า,193,โรงพยาบาลวชิระภูเก็ต,null,null,985511204,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+194,3898736,54,โรงพยาบาล บีเอ็นเอช,194,โรงพยาบาลมิชชั่นภูเก็ต,null,null,985511205,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+195,3907641,55,โรงพยาบาลผิวหนังอโศก,195,โรงพยาบาลสิริโรจน์,null,null,985511206,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+196,3911513,56,โรงพยาบาลมิชชั่น,196,โรงพยาบาลกรุงเทพภูเก็ต,null,null,985511207,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+197,3944698,57,โรงพยาบาลเปาโล เกษตร,197,โรงพยาบาลดีบุก,null,null,985511208,null,null,N,Y,N,N,N,FALSE,TRUE,FALSE
+198,3947699,58,โรงพยาบาลมิตรภาพ วงเวียนใหญ่,198,โรงพยาบาลมหาสารคามอินเตอร์เนชันแนล,null,null,985511209,null,null,N,Y,N,N,N,FALSE,FALSE,TRUE
+199,3958796,59,โรงพยาบาลมงกุฎวัฒนะ,199,โรงพยาบาลนายแพทย์หาญ,null,null,985511210,null,null,N,Y,N,N,N,TRUE,FALSE,FALSE
+200,3959853,60,โรงพยาบาลยันฮี,200,โรงพยาบาลสิโรรส,null,null,null,22111111,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+201,4007502,61,โรงพยาบาลรามคำแหง,201,โรงพยาบาลจุรีเวช,null,null,null,22111112,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+202,4032749,62,โรงพยาบาลราชวิถี,202,โรงพยาบาลร้อยเอ็ด-ธนบุรี,null,null,null,22111113,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+203,4080819,63,โรงพยาบาลราษฎร์บูรณะ,203,โรงพยาบาลระนอง,null,null,null,22111114,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+204,4081377,64,โรงพยาบาลรามาธิบดี,204,โรงพยาบาลมงกุฎระยอง,null,null,null,22111115,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+205,4104805,65,โรงพยาบาลลาดพร้าว,205,โรงพยาบาลกรุงเทพระยอง,null,null,null,22111116,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+206,4211157,66,โรงพยาบาลเลิดสิน,206,โรงพยาบาลดำเนินสะดวก,null,null,null,22111117,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+207,4285078,67,คณะแพทยศาสตร์วชิรพยาบาล มหาวิทยาลัยนวมินทราธิราช,207,โรงพยาบาลมหาชัยพร้อมแพทย์,null,null,null,22111118,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+208,4373013,68,โรงพยาบาลวิภาวดี,208,โรงพยาบาลซานคามิลโล,null,null,null,22111119,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+209,4444651,69,โรงพยาบาลวิชัยยุทธ,209,โรงพยาบาลกรุงเทพเมืองราช,null,null,null,22111120,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+210,4450218,70,โรงพยาบาลเวชธานี,210,โรงพยาบาลเบญจรมย์,null,null,null,22111121,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+211,4450220,71,โรงพยาบาลวิภาราม,211,โรงพยาบาลเมืองนารายณ์,null,null,null,22111122,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+212,4450541,72,โรงพยาบาลเวชศาสตร์เขตร้อน,212,โรงพยาบาลลำปาง,null,null,null,22111123,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+213,4506449,73,โรงพยาบาลสมิติเวช สุขุมวิท,213,โรงพยาบาลเขลางค์นคร-ราม,null,null,null,22111124,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+214,4663395,74,โรงพยาบาลเปาโลเมโมเรียล โชคชัย4,214,โรงพยาบาลหริภุญชัยเมโมเรียล,null,null,null,22111125,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+215,4664862,75,โรงพยาบาลสุขุมวิท,215,โรงพยาบาลศิริเวช ลำพูน,null,null,null,22111126,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+216,4675603,76,โรงพยาบาลสมเด็จพระปิ่นเกล้า,216,โรงพยาบาลเมืองเลยราม,null,null,null,22111127,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+217,4713399,77,โรงพยาบาลสมเด็จพระปิ่นเกล้า,217,โรงพยาบาลประชารักษ์เวชการ,null,null,null,22111128,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+218,4782568,78,โรงพยาบาลสินแพทย์,218,โรงพยาบาลรักษ์สกล,null,null,null,22111129,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+219,4792161,79,โรงพยาบาลสมิติเวช ศรีนครินทร์,219,โรงพยาบาลสงขลา,null,null,null,22111130,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+220,4792161,80,โรงพยาบาลสายไหม,220,โรงพยาบาลหาดใหญ่,null,null,null,22111131,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+221,4964326,81,โรงพยาบาลเสรีรักษ์,221,โรงพยาบาลราษฎร์ยินดี,null,null,null,22111132,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+222,5056078,82,โรงพยาบาลศิริราช,222,โรงพยาบาลกรุงเทพหาดใหญ่,null,null,null,22111133,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+223,5065934,83,โรงพยาบาลวิชัยเวชอินเตอร์เนชั่นแนล หนองแขม,223,โรงพยาบาลศิครินทร์หาดใหญ่,null,null,null,22111134,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+224,5071005,84,โรงพยาบาลพญาไท นวมินทร์,224,โรงพยาบาลเปาโลพระประแดง,null,null,null,22111135,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+225,5084252,85,โรงพยาบาลศิครินทร์,225,โรงพยาบาลบางปะกอก 3,null,null,null,22111136,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+226,5130835,86,โรงพยาบาลศิริราช ปิยมหาราชการุณย์,226,โรงพยาบาลสำโรงการแพทย์,null,null,null,22111137,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+227,5147135,87,โรงพยาบาลสมิติเวช สุวรรณภูมิ,227,โรงพยาบาลเมืองสมุทรปากน้ำ,null,null,null,22111138,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+228,5150046,88,โรงพยาบาลสมิติเวช สุวรรณภูมิ,228,โรงพยาบาลเปาโลเมโมเรียลสมุทรปราการ,null,null,null,22111139,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+229,5155601,89,โรงพยาบาลหัวเฉียว,229,โรงพยาบาลรวมชัยประชารักษ์,null,null,null,22111140,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+230,5170361,90,โรงพยาบาลกระบี่,230,โรงพยาบาลรัทรินทร์,null,null,null,22111141,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+231,5183507,91,โรงพยาบาลกระบี่นครินทร์ อินเตอร์เนชั่นแนล (B.O.I),231,โรงพยาบาลจุฬารัตน์ 9 แอร์พอร์ต,null,null,null,22111142,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+232,5336360,92,โรงพยาบาลกาญจนบุรีเมโมเรียล,232,โรงพยาบาลจุฬารัตน์ 3,null,null,null,22111143,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+233,5389413,93,โรงพยาบาลธนกาญจน์,233,โรงพยาบาลสินแพทย์ เทพารักษ์,null,null,null,22111144,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+234,5456757,94,โรงพยาบาลเอกชนเมืองกำแพง,234,โรงพยาบาลบางปะกอก สมุทรปราการ,null,null,null,22111145,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+235,5587293,95,โรงพยาบาลเกษมราษฎร์ รามคำแหง,235,โรงพยาบาลพรินซ์ สุวรรณภูมิ,null,null,null,22111146,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+236,5590699,96,โรงพยาบาลศรีนครินทร์ มหาวิทยาลัยขอนแก่น,236,โรงพยาบาลสมเด็จพระพุทธเลิศหล้า,null,null,null,22111147,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+237,5636222,97,โรงพยาบาลขอนแก่น ราม,237,โรงพยาบาลมหาชัยแม่กลอง,null,null,null,22111148,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+238,5822383,98,โรงพยาบาลราชพฤกษ์ ขอนแก่น,238,โรงพยาบาลสมุทรสาคร,null,null,null,22111149,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+239,5855392,99,โรงพยาบาลกรุงเทพขอนแก่น,239,โรงพยาบาลเอกชัย,null,null,null,22111150,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+240,5855792,100,โรงพยาบาลพระปกเกล้า,240,โรงพยาบาลมหาชัย 1,null,null,null,22111151,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+241,5856425,101,โรงพยาบาลกรุงเทพจันทบุรี,241,โรงพยาบาลวิชัยเวช อินเตอร์เนชั่นแนล อ้อมน้อย,null,null,null,22111152,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+242,5866063,102,โรงพยาบาลสิริเวช,242,โรงพยาบาลวิชัยเวช อินเตอร์เนชั่นแนล สมุทรสาคร,null,null,null,22111153,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+243,5872780,103,โรงพยาบาลจุฬารัตน์ 11 อินเตอร์,243,โรงพยาบาลมหาชัย 2,null,null,null,22111154,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+244,5879764,104,โรงพยาบาลเกษมราษฎร์ ฉะเชิงเทรา,244,โรงพยาบาลบ้านแพ้ว(องค์การมหาชน),null,null,null,22111155,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+245,5882786,105,โรงพยาบาลชลบุรี,245,โรงพยาบาลเกษมราษฎร์ สระบุรี,null,null,null,22111156,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+246,5892605,106,โรงพยาบาลกรุงเทพพัทยา,246,โรงพยาบาลมิตรภาพเมโมเรียล,null,null,null,22111157,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+247,5906719,107,โรงพยาบาลพญาไท ศรีราชา,247,โรงพยาบาลพระพุทธบาท,null,null,null,22111158,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+248,5909602,108,โรงพยาบาลเอกชล 2,248,โรงพยาบาลสิงห์บุรี,null,null,null,22111159,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+249,5914018,109,โรงพยาบาลเอกชล(ชลบุรี),249,โรงพยาบาลสิงห์บุรีเวชชการ (หมอประเจิด),null,null,null,22111160,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+250,5970301,110,โรงพยาบาลพัทยาเมโมเรียล,250,โรงพยาบาลสุโขทัย,null,null,null,22111161,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+251,5970458,111,โรงพยาบาลสมิติเวช ศรีราชา,251,โรงพยาบาลรวมแพทย์สุโขทัย,null,null,null,22111162,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+252,6008549,112,โรงพยาบาลปิยะเวชช์ บ่อวิน,252,โรงพยาบาลพัฒนเวช สุโขทัย,null,null,null,22111163,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+253,6073254,113,โรงพยาบาลวิภาราม อมตะนคร,253,โรงพยาบาลเจ้าพระยายมราช,null,null,null,22111164,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+254,6113916,114,โรงพยาบาลสมิติเวช ชลบุรี,254,โรงพยาบาลศุภมิตร,null,null,null,22111165,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+255,6121675,115,โรงพยาบาลรวมแพทย์ชัยนาท,255,โรงพยาบาลวิภาวดี-ปิยราษฎร์,null,null,null,22111166,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+256,6261295,116,โรงพยาบาลชัยภูมิ-ราม,256,โรงพยาบาลธนบุรี-อู่ทอง,null,null,null,22111167,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+257,6413864,117,โรงพยาบาลชุมพรเขตรอุดมศักดิ์,257,โรงพยาบาลพรชัย,null,null,null,22111168,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+258,6428169,118,โรงพยาบาลวิรัชศิลป์,258,โรงพยาบาลเกาะสมุย,null,null,null,22111169,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+259,6517679,119,โรงพยาบาลธนบุรี ชุมพร,259,โรงพยาบาลทักษิณ,null,null,null,22111170,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+260,6604951,120,โรงพยาบาลโอเวอร์บรู๊ค,260,โรงพยาบาลศรีวิชัยสุราษฎร์ธานี,null,null,null,22111171,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+261,6660524,121,โรงพยาบาลเกษมราษฎร์ศรีบุรินทร์,261,โรงพยาบาลบ้านดอนอินเตอร์,null,null,null,22111172,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+262,6753429,122,โรงพยาบาลเชียงรายอินเตอร์,262,โรงพยาบาลกรุงเทพสมุย,null,null,null,22111173,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+263,6917789,123,โรงพยาบาลมหาลัยแม่ฟ้าหลวง,263,โรงพยาบาลไทยอินเตอร์เนชั่นแนล(เกาะสมุย),null,null,null,22111174,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+264,6974113,124,โรงพยาบาลมหาราชนครเชียงใหม่,264,โรงพยาบาลเฟิร์สเวสเทอร์น,null,null,null,22111175,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+265,6994582,125,ศูนย์ศรีพัฒน์คณะแพทยศาสตร์ มช.,265,โรงพยาบาลกรุงเทพสุราษฎร์,null,null,null,22111176,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+266,7005501,126,โรงพยาบาลราชเวช เชียงใหม่,266,โรงพยาบาลหนองคาย,null,null,null,22111177,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+267,7022647,127,โรงพยาบาลแมคคอร์มิค,267,โรงพยาบาลหนองคาย-วัฒนา,null,null,null,22111178,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+268,7026806,128,โรงพยาบาลลานนา,268,โรงพยาบาลรวมแพทย์หนองคาย,null,null,null,22111179,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+269,7042148,129,โรงพยาบาลเชียงใหม่ราม 1,269,โรงพยาบาลสมเด็จพระยุพราชท่าบ่อ,null,null,null,22111180,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+270,7059058,130,โรงพยาบาลเชียงใหม่ฮอสพิทอล,270,โรงพยาบาลพิสัยเวช,null,null,null,22111181,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+271,7306133,131,โรงพยาบาลเทพปัญญา,271,โรงพยาบาลราชธานี,null,null,null,22111182,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+272,7306138,132,โรงพยาบาลกรุงเทพเชียงใหม่,272,โรงพยาบาลศุภมิตรเสนา,null,null,null,22111183,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+273,7306140,133,โรงพยาบาลตราด,273,โรงพยาบาลพีรเวช,null,null,null,22111184,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+274,7306144,134,โรงพยาบาลกรุงเทพตราด,274,โรงพยาบาลอ่างทอง,null,null,null,22111185,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+275,7306146,135,โรงพยาบาลตรัง,275,โรงพยาบาลอ่างทองเวชชการ 2,null,null,null,22111186,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+276,7306149,136,โรงพยาบาลตรังรวมแพทย์,276,โรงพยาบาลเอกอุดร,null,null,null,22111187,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+277,7306150,137,โรงพยาบาลวัฒนแพทย์,277,โรงพยาบาลนอร์ทอีสเทอร์น-วัฒนา,null,null,null,22111188,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+278,7306166,138,โรงพยาบาลแม่สอด-ราม,278,โรงพยาบาลกรุงเทพอุดร,null,null,null,22111189,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+279,7306227,139,โรงพยาบาลแม่สอด,279,โรงพยาบาลทัพทัน,null,null,null,22111190,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+280,7306231,140,โรงพยาบาลนครแม่สอด อินเตอร์เนชั่นแนล,280,โรงพยาบาลอุบลรักษ์ ธนบุรี,null,null,null,22111191,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+281,7306232,1,โรงพยาบาลกรุงเทพ,141,โรงพยาบาลนครนายก,null,null,null,22111192,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+282,7306234,2,โรงพยาบาลกรุงเทพคริสเตียน,142,ศูนย์การแพทย์สมเด็จพระเทพฯ,null,null,null,22111193,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+283,7306235,3,โรงพยาบาลกล้วยน้ำไท,143,โรงพยาบาลนครปฐม,null,null,null,22111194,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+284,7306236,4,โรงพยาบาลสมิติเวช ธนบุรี,144,โรงพยาบาลกรุงเทพคริสเตียน นครปฐม,null,null,null,22111195,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+285,7306237,5,โรงพยาบาลเกษมราษฎร์ ประชาชื่น,145,โรงพยาบาลกรุงเทพสนามจันทร์,null,null,null,22111196,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+286,7306254,6,โรงพยาบาลเกษมราษฎร์ บางแค,146,โรงพยาบาลเซนต์แมรี่,null,null,null,22111197,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+287,7306260,7,โรงพยาบาลเกษมราษฎร์ รามคำแหง,147,โรงพยาบาลกรุงเทพราชสีมา,null,null,null,22111198,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+288,7306262,8,โรงพยาบาลคามิลเลียน,148,โรงพยาบาลกรุงเทพปากช่อง,null,null,null,22111199,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+289,7306267,9,โรงพยาบาลคลองตัน,149,โรงพยาบาลมหาวิทยาลัยเทคโนโลยีสุรนารี,null,null,null,22111200,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+290,7306268,10,โรงพยาบาลสมิติเวชไชน่าทาวน์,150,โรงพยาบาลมหาราชนครศรีธรรมราช,null,null,null,22111201,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+291,7306271,11,โรงพยาบาลเจ้าพระยา,151,โรงพยาบาลสิชล,null,null,null,22111202,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+292,7306272,12,โรงพยาบาลเจริญกรุงประชารักษ์,152,โรงพยาบาลนครินทร์,null,null,null,22111203,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+293,7306273,13,โรงพยาบาลจุฬาลงกรณ์ สภากาชาดไทย,153,โรงพยาบาลค่ายวชิราวุธ,null,null,null,22111204,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+294,7306276,14,โรงพยาบาลจุฬาภรณ์,154,โรงพยาบาลนครพัฒน์,null,null,null,22111205,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+295,7306277,15,โรงพยาบาลเซนต์หลุยส์,155,โรงพยาบาลรวมแพทย์ นครสวรรค์,null,null,null,22111206,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+296,7306289,16,โรงพยาบาลซีจีเอช,156,โรงพยาบาลปากน้ำโพ,null,null,null,22111207,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+297,7306291,17,โรงพยาบาลกรุงสยามเซนต์คาร์ลอส,157,โรงพยาบาลร่มฉัตร,null,null,null,22111208,null,N,N,N,Y,N,FALSE,FALSE,TRUE
+298,7306293,18,โรงพยาบาลตำรวจ,158,โรงพยาบาลปากน้ำโพ 2,null,null,null,22111209,null,N,N,N,Y,N,TRUE,FALSE,FALSE
+299,7306298,19,โรงพยาบาลตากสิน กรุงเทพมหานคร,159,โรงพยาบาลศรีสวรรค์,null,null,null,22111210,null,N,N,N,Y,N,FALSE,TRUE,FALSE
+300,7610000,20,โรงพยาบาลตา หู คอ จมูก,160,โรงพยาบาลนนทเวช,null,null,null,null,1000eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+301,7635671,21,โรงพยาบาลเทพธารินทร์,161,โรงพยาบาลวิภารามปากเกร็ด,null,null,null,null,1001eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+302,8038157,22,โรงพยาบาลไทยนครินทร์,162,โรงพยาบาลเกษมราษฎร์ อินเตอร์เนชันแนล รัตนาธิเบศร์,null,null,null,null,1002eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+303,8149457,23,โรงพยาบาลทหารผ่านศึก,163,โรงพยาบาลกรุงไทย,null,null,null,null,1003eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+304,8224915,24,โรงพยาบาลธนบุรี,164,โรงพยาบาลเวิลด์เมดิคอล,null,null,null,null,1004eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+305,8263825,25,โรงพยาบาลธนบุรี 2,165,โรงพยาบาลสุไหงโก-ลก,null,null,null,null,1005eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+306,8375701,26,โรงพยาบาลนครธน,166,โรงพยาบาลน่าน,null,null,null,null,1006eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+307,8410928,27,โรงพยาบาลนวมินทร์,167,โรงพยาบาลเอกชนบุรีรัมย์,null,null,null,null,1007eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+308,8424627,28,โรงพยาบาลนวมินทร์ 2,168,โรงพยาบาลบางปะกอกรังสิต 2,null,null,null,null,1008eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+309,8524605,29,โรงพยาบาลนวมินทร์ 9,169,โรงพยาบาลแพทย์รังสิต,null,null,null,null,1009eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+310,8714149,30,โรงพยาบาลสมิติเวช ธนบุรี,170,โรงพยาบาลปทุมเวช,null,null,null,null,1010eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+311,8785563,31,โรงพยาบาลบำรุงราษฎร์,171,โรงพยาบาลภัทร-ธนบุรี,null,null,null,null,1011eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+312,8838578,32,โรงพยาบาลบางไผ่,172,โรงพยาบาลเฉพาะทางแม่และเด็กแพทย์รังสิต,null,null,null,null,1012eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+313,8913181,33,โรงพยาบาลบางมด,173,โรงพยาบาลซานเปาโล หัวหิน,null,null,null,null,1013eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+314,8957013,34,โรงพยาบาล บี.แคร์ เมดิคอลเซ็นเตอร์,174,โรงพยาบาลกรุงเทพหัวหิน,null,null,null,null,1014eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+315,8957730,35,โรงพยาบาลบางโพ,175,โรงพยาบาลพะเยาราม,null,null,null,null,1015eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+316,8993587,36,โรงพยาบาลบางนา 1,176,โรงพยาบาลพังงา,null,null,null,null,1016eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+317,9002299,37,โรงพยาบาลบางนา 2,177,โรงพยาบาลตะกั่วป่า,null,null,null,null,1017eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+318,9128353,38,โรงพยาบาลเปาโลเมโมเรียล,178,โรงพยาบาลพัทลุง,null,null,null,null,1018eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+319,9133611,39,โรงพยาบาลปิยะเวท,179,โรงพยาบาลปิยะรักษ์,null,null,null,null,1019eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+320,9142298,40,โรงพยาบาลบางนา 3,180,โรงพยาบาลสหเวช,null,null,null,null,1020eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+321,9173552,41,โรงพยาบาลบางปะกอก 9 อินเตอร์เนชั่นแนล,181,โรงพยาบาลชัยอรุณเวชการ,null,null,null,null,1021eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+322,9189344,42,โรงพยาบาลบางปะกอก 8,182,โรงพยาบาลพิษณุเวช,null,null,null,null,1022eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+323,9214435,43,โรงพยาบาลพระมงกุฏเกล้า,183,โรงพยาบาลพิษณุโลก ฮอสพิทอล,null,null,null,null,1023eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+324,9220914,44,โรงพยาบาลพญาไท 1,184,โรงพยาบาลกรุงเทพพิษณุโลก,null,null,null,null,1024eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+325,9239499,45,โรงพยาบาลพญาไท 2,185,โรงพยาบาลเด็กกรุงเทพพิษณุโลก,null,null,null,null,1025eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+326,9255978,46,โรงพยาบาลเพชรเวช,186,คณะแพทยศาสตร์ มหาวิทยาลัยนเรศวร,null,null,null,null,1026eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+327,9265108,47,โรงพยาบาลแพทย์ปัญญา,187,โรงพยาบาลมหาชัยเพชรรัชต์,null,null,null,null,1027eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+328,9340341,48,โรงพยาบาลพระราม 2,188,โรงพยาบาลกรุงเทพเพชรบุรี,null,null,null,null,1028eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+329,9358404,49,โรงพยาบาลภูมิพลอดุลยเดช กรมแพทย์ทหารอากาศ,189,โรงพยาบาลเพชรบูรณ์,null,null,null,null,1029eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+330,9580983,50,โรงพยาบาลเพชรเกษม 2,190,โรงพยาบาลเพชรรัตน์,null,null,null,null,1030eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+331,9602273,51,โรงพยาบาลพญาไท 3,191,โรงพยาบาลแพร่คริสเตียน,null,null,null,null,1031eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+332,9604922,52,โรงพยาบาลบางปะกอก 1,192,โรงพยาบาลแพร่ราม,null,null,null,null,1032eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+333,9633233,53,โรงพยาบาลพระรามเก้า,193,โรงพยาบาลวชิระภูเก็ต,null,null,null,null,1033eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+334,9646274,54,โรงพยาบาล บีเอ็นเอช,194,โรงพยาบาลมิชชั่นภูเก็ต,null,null,null,null,1034eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+335,9696126,55,โรงพยาบาลผิวหนังอโศก,195,โรงพยาบาลสิริโรจน์,null,null,null,null,1035eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+336,9707873,56,โรงพยาบาลมิชชั่น,196,โรงพยาบาลกรุงเทพภูเก็ต,null,null,null,null,1036eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+337,9752563,57,โรงพยาบาลเปาโล เกษตร,197,โรงพยาบาลดีบุก,null,null,null,null,1037eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+338,9785460,58,โรงพยาบาลมิตรภาพ วงเวียนใหญ่,198,โรงพยาบาลมหาสารคามอินเตอร์เนชันแนล,null,null,null,null,1038eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+339,9788273,59,โรงพยาบาลมงกุฎวัฒนะ,199,โรงพยาบาลนายแพทย์หาญ,null,null,null,null,1039eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+340,9883923,60,โรงพยาบาลยันฮี,200,โรงพยาบาลสิโรรส,null,null,null,null,1040eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+341,9892607,61,โรงพยาบาลรามคำแหง,201,โรงพยาบาลจุรีเวช,null,null,null,null,1041eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+342,9925466,62,โรงพยาบาลราชวิถี,202,โรงพยาบาลร้อยเอ็ด-ธนบุรี,null,null,null,null,1042eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+343,9955267,63,โรงพยาบาลราษฎร์บูรณะ,203,โรงพยาบาลระนอง,null,null,null,null,1043eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+344,9964309,64,โรงพยาบาลรามาธิบดี,204,โรงพยาบาลมงกุฎระยอง,null,null,null,null,1044eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+345,9982973,65,โรงพยาบาลลาดพร้าว,205,โรงพยาบาลกรุงเทพระยอง,null,null,null,null,1045eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+346,10025500,66,โรงพยาบาลเลิดสิน,206,โรงพยาบาลดำเนินสะดวก,null,null,null,null,1046eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+347,10027283,67,คณะแพทยศาสตร์วชิรพยาบาล มหาวิทยาลัยนวมินทราธิราช,207,โรงพยาบาลมหาชัยพร้อมแพทย์,null,null,null,null,1047eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+348,10058237,68,โรงพยาบาลวิภาวดี,208,โรงพยาบาลซานคามิลโล,null,null,null,null,1048eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+349,10062017,69,โรงพยาบาลวิชัยยุทธ,209,โรงพยาบาลกรุงเทพเมืองราช,null,null,null,null,1049eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+350,10062866,70,โรงพยาบาลเวชธานี,210,โรงพยาบาลเบญจรมย์,null,null,null,null,1050eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+351,10068043,71,โรงพยาบาลวิภาราม,211,โรงพยาบาลเมืองนารายณ์,null,null,null,null,1051eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+352,10083654,72,โรงพยาบาลเวชศาสตร์เขตร้อน,212,โรงพยาบาลลำปาง,null,null,null,null,1052eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+353,10085372,73,โรงพยาบาลสมิติเวช สุขุมวิท,213,โรงพยาบาลเขลางค์นคร-ราม,null,null,null,null,1053eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+354,10111820,74,โรงพยาบาลเปาโลเมโมเรียล โชคชัย4,214,โรงพยาบาลหริภุญชัยเมโมเรียล,null,null,null,null,1054eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+355,10125707,75,โรงพยาบาลสุขุมวิท,215,โรงพยาบาลศิริเวช ลำพูน,null,null,null,null,1055eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+356,10125897,76,โรงพยาบาลสมเด็จพระปิ่นเกล้า,216,โรงพยาบาลเมืองเลยราม,null,null,null,null,1056eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+357,10126368,77,โรงพยาบาลสมเด็จพระปิ่นเกล้า,217,โรงพยาบาลประชารักษ์เวชการ,null,null,null,null,1057eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+358,10139769,78,โรงพยาบาลสินแพทย์,218,โรงพยาบาลรักษ์สกล,null,null,null,null,1058eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+359,10155609,79,โรงพยาบาลสมิติเวช ศรีนครินทร์,219,โรงพยาบาลสงขลา,null,null,null,null,1059eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+360,10157871,80,โรงพยาบาลสายไหม,220,โรงพยาบาลหาดใหญ่,null,null,null,null,1060eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+361,10159678,81,โรงพยาบาลเสรีรักษ์,221,โรงพยาบาลราษฎร์ยินดี,null,null,null,null,1061eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+362,10167705,82,โรงพยาบาลศิริราช,222,โรงพยาบาลกรุงเทพหาดใหญ่,null,null,null,null,1062eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+363,10175018,83,โรงพยาบาลวิชัยเวชอินเตอร์เนชั่นแนล หนองแขม,223,โรงพยาบาลศิครินทร์หาดใหญ่,null,null,null,null,1063eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+364,10196077,84,โรงพยาบาลพญาไท นวมินทร์,224,โรงพยาบาลเปาโลพระประแดง,null,null,null,null,1064eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+365,10216012,85,โรงพยาบาลศิครินทร์,225,โรงพยาบาลบางปะกอก 3,null,null,null,null,1065eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+366,10218449,86,โรงพยาบาลศิริราช ปิยมหาราชการุณย์,226,โรงพยาบาลสำโรงการแพทย์,null,null,null,null,1066eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+367,10218787,87,โรงพยาบาลสมิติเวช สุวรรณภูมิ,227,โรงพยาบาลเมืองสมุทรปากน้ำ,null,null,null,null,1067eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+368,10224954,88,โรงพยาบาลสมิติเวช สุวรรณภูมิ,228,โรงพยาบาลเปาโลเมโมเรียลสมุทรปราการ,null,null,null,null,1068eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+369,10232711,89,โรงพยาบาลหัวเฉียว,229,โรงพยาบาลรวมชัยประชารักษ์,null,null,null,null,1069eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+370,10238559,90,โรงพยาบาลกระบี่,230,โรงพยาบาลรัทรินทร์,null,null,null,null,1070eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+371,10251050,91,โรงพยาบาลกระบี่นครินทร์ อินเตอร์เนชั่นแนล (B.O.I),231,โรงพยาบาลจุฬารัตน์ 9 แอร์พอร์ต,null,null,null,null,1071eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+372,10262594,92,โรงพยาบาลกาญจนบุรีเมโมเรียล,232,โรงพยาบาลจุฬารัตน์ 3,null,null,null,null,1072eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+373,10266201,93,โรงพยาบาลธนกาญจน์,233,โรงพยาบาลสินแพทย์ เทพารักษ์,null,null,null,null,1073eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+374,10267756,94,โรงพยาบาลเอกชนเมืองกำแพง,234,โรงพยาบาลบางปะกอก สมุทรปราการ,null,null,null,null,1074eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+375,10275676,95,โรงพยาบาลเกษมราษฎร์ รามคำแหง,235,โรงพยาบาลพรินซ์ สุวรรณภูมิ,null,null,null,null,1075eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+376,10276776,96,โรงพยาบาลศรีนครินทร์ มหาวิทยาลัยขอนแก่น,236,โรงพยาบาลสมเด็จพระพุทธเลิศหล้า,null,null,null,null,1076eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+377,10288177,97,โรงพยาบาลขอนแก่น ราม,237,โรงพยาบาลมหาชัยแม่กลอง,null,null,null,null,1077eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+378,10306923,98,โรงพยาบาลราชพฤกษ์ ขอนแก่น,238,โรงพยาบาลสมุทรสาคร,null,null,null,null,1078eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+379,10313417,99,โรงพยาบาลกรุงเทพขอนแก่น,239,โรงพยาบาลเอกชัย,null,null,null,null,1079eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+380,10313587,100,โรงพยาบาลพระปกเกล้า,240,โรงพยาบาลมหาชัย 1,null,null,null,null,1080eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+381,10318273,101,โรงพยาบาลกรุงเทพจันทบุรี,241,โรงพยาบาลวิชัยเวช อินเตอร์เนชั่นแนล อ้อมน้อย,null,null,null,null,1081eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+382,10319832,102,โรงพยาบาลสิริเวช,242,โรงพยาบาลวิชัยเวช อินเตอร์เนชั่นแนล สมุทรสาคร,null,null,null,null,1082eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+383,10324585,103,โรงพยาบาลจุฬารัตน์ 11 อินเตอร์,243,โรงพยาบาลมหาชัย 2,null,null,null,null,1083eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+384,10336992,104,โรงพยาบาลเกษมราษฎร์ ฉะเชิงเทรา,244,โรงพยาบาลบ้านแพ้ว(องค์การมหาชน),null,null,null,null,1084eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+385,10337827,105,โรงพยาบาลชลบุรี,245,โรงพยาบาลเกษมราษฎร์ สระบุรี,null,null,null,null,1085eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+386,10343655,106,โรงพยาบาลกรุงเทพพัทยา,246,โรงพยาบาลมิตรภาพเมโมเรียล,null,null,null,null,1086eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+387,10345671,107,โรงพยาบาลพญาไท ศรีราชา,247,โรงพยาบาลพระพุทธบาท,null,null,null,null,1087eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+388,10352629,108,โรงพยาบาลเอกชล 2,248,โรงพยาบาลสิงห์บุรี,null,null,null,null,1088eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+389,10356677,109,โรงพยาบาลเอกชล(ชลบุรี),249,โรงพยาบาลสิงห์บุรีเวชชการ (หมอประเจิด),null,null,null,null,1089eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+390,10361090,110,โรงพยาบาลพัทยาเมโมเรียล,250,โรงพยาบาลสุโขทัย,null,null,null,null,1090eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+391,10370544,111,โรงพยาบาลสมิติเวช ศรีราชา,251,โรงพยาบาลรวมแพทย์สุโขทัย,null,null,null,null,1091eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+392,10371384,112,โรงพยาบาลปิยะเวชช์ บ่อวิน,252,โรงพยาบาลพัฒนเวช สุโขทัย,null,null,null,null,1092eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+393,10380206,113,โรงพยาบาลวิภาราม อมตะนคร,253,โรงพยาบาลเจ้าพระยายมราช,null,null,null,null,1093eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+394,10396837,114,โรงพยาบาลสมิติเวช ชลบุรี,254,โรงพยาบาลศุภมิตร,null,null,null,null,1094eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+395,10402474,115,โรงพยาบาลรวมแพทย์ชัยนาท,255,โรงพยาบาลวิภาวดี-ปิยราษฎร์,null,null,null,null,1095eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+396,10403930,116,โรงพยาบาลชัยภูมิ-ราม,256,โรงพยาบาลธนบุรี-อู่ทอง,null,null,null,null,1096eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+397,10413474,117,โรงพยาบาลชุมพรเขตรอุดมศักดิ์,257,โรงพยาบาลพรชัย,null,null,null,null,1097eak@gmail.com,N,N,N,N,Y,TRUE,FALSE,FALSE
+398,10413928,118,โรงพยาบาลวิรัชศิลป์,258,โรงพยาบาลเกาะสมุย,null,null,null,null,1098eak@gmail.com,N,N,N,N,Y,FALSE,TRUE,FALSE
+399,10414302,119,โรงพยาบาลธนบุรี ชุมพร,259,โรงพยาบาลทักษิณ,null,null,null,null,1099eak@gmail.com,N,N,N,N,Y,FALSE,FALSE,TRUE
+400,10421350,120,โรงพยาบาลโอเวอร์บรู๊ค,260,โรงพยาบาลศรีวิชัยสุราษฎร์ธานี,1,null,null,null,null,Y,N,N,N,N,TRUE,FALSE,FALSE
+401,10432795,121,โรงพยาบาลเกษมราษฎร์ศรีบุรินทร์,261,โรงพยาบาลบ้านดอนอินเตอร์,2,null,null,null,null,Y,N,N,N,N,FALSE,TRUE,FALSE
+402,10435013,122,โรงพยาบาลเชียงรายอินเตอร์,262,โรงพยาบาลกรุงเทพสมุย,3,null,null,null,null,Y,N,N,N,N,FALSE,FALSE,TRUE
+403,10435176,123,โรงพยาบาลมหาลัยแม่ฟ้าหลวง,263,โรงพยาบาลไทยอินเตอร์เนชั่นแนล(เกาะสมุย),4,null,null,null,null,Y,N,N,N,N,TRUE,FALSE,FALSE
+404,10441622,124,โรงพยาบาลมหาราชนครเชียงใหม่,264,โรงพยาบาลเฟิร์สเวสเทอร์น,5,null,null,null,null,Y,N,N,N,N,FALSE,TRUE,FALSE
+405,10441747,125,ศูนย์ศรีพัฒน์คณะแพทยศาสตร์ มช.,265,โรงพยาบาลกรุงเทพสุราษฎร์,6,null,null,null,null,Y,N,N,N,N,FALSE,FALSE,TRUE
+406,10443292,126,โรงพยาบาลราชเวช เชียงใหม่,266,โรงพยาบาลหนองคาย,7,null,null,null,null,Y,N,N,N,N,TRUE,FALSE,FALSE
+407,10444826,127,โรงพยาบาลแมคคอร์มิค,267,โรงพยาบาลหนองคาย-วัฒนา,8,null,null,null,null,Y,N,N,N,N,FALSE,TRUE,FALSE
+408,10445505,128,โรงพยาบาลลานนา,268,โรงพยาบาลรวมแพทย์หนองคาย,9,null,null,null,null,Y,N,N,N,N,FALSE,FALSE,TRUE
+409,10451114,129,โรงพยาบาลเชียงใหม่ราม 1,269,โรงพยาบาลสมเด็จพระยุพราชท่าบ่อ,10,null,null,null,null,Y,N,N,N,N,TRUE,FALSE,FALSE
+410,10455044,130,โรงพยาบาลเชียงใหม่ฮอสพิทอล,270,โรงพยาบาลพิสัยเวช,11,null,null,null,null,Y,N,N,N,N,FALSE,TRUE,FALSE
+411,10457288,131,โรงพยาบาลเทพปัญญา,271,โรงพยาบาลราชธานี,12,null,null,null,null,Y,N,N,N,N,FALSE,FALSE,TRUE
+412,10457502,132,โรงพยาบาลกรุงเทพเชียงใหม่,272,โรงพยาบาลศุภมิตรเสนา,13,null,null,null,null,Y,N,N,N,N,TRUE,FALSE,FALSE
+413,10465536,133,โรงพยาบาลตราด,273,โรงพยาบาลพีรเวช,14,null,null,null,null,Y,N,N,N,N,FALSE,TRUE,FALSE
+414,10465789,134,โรงพยาบาลกรุงเทพตราด,274,โรงพยาบาลอ่างทอง,15,null,null,null,null,Y,N,N,N,N,FALSE,FALSE,TRUE
+415,10469164,135,โรงพยาบาลตรัง,275,โรงพยาบาลอ่างทองเวชชการ 2,16,null,null,null,null,Y,N,N,N,N,TRUE,FALSE,FALSE
+416,10471370,136,โรงพยาบาลตรังรวมแพทย์,276,โรงพยาบาลเอกอุดร,17,null,null,null,null,Y,N,N,N,N,FALSE,TRUE,FALSE
+417,10474130,137,โรงพยาบาลวัฒนแพทย์,277,โรงพยาบาลนอร์ทอีสเทอร์น-วัฒนา,18,null,null,null,null,Y,N,N,N,N,FALSE,FALSE,TRUE
+418,10479244,138,โรงพยาบาลแม่สอด-ราม,278,โรงพยาบาลกรุงเทพอุดร,19,null,null,null,null,Y,N,N,N,N,TRUE,FALSE,FALSE
+419,10482613,139,โรงพยาบาลแม่สอด,279,โรงพยาบาลทัพทัน,20,null,null,null,null,Y,N,N,N,N,FALSE,TRUE,FALSE
+420,10483192,140,โรงพยาบาลนครแม่สอด อินเตอร์เนชั่นแนล,280,โรงพยาบาลอุบลรักษ์ ธนบุรี,21,null,null,null,null,Y,N,N,N,N,FALSE,FALSE,TRUE
+421,10485178,1,โรงพยาบาลกรุงเทพ,141,โรงพยาบาลนครนายก,22,null,null,null,null,Y,N,N,N,N,TRUE,FALSE,FALSE
+422,10486190,2,โรงพยาบาลกรุงเทพคริสเตียน,142,ศูนย์การแพทย์สมเด็จพระเทพฯ,23,null,null,null,null,Y,N,N,N,N,FALSE,TRUE,FALSE
+423,10486459,3,โรงพยาบาลกล้วยน้ำไท,143,โรงพยาบาลนครปฐม,24,null,null,null,null,Y,N,N,N,N,FALSE,FALSE,TRUE
+424,10487481,4,โรงพยาบาลสมิติเวช ธนบุรี,144,โรงพยาบาลกรุงเทพคริสเตียน นครปฐม,25,null,null,null,null,Y,N,N,N,N,TRUE,FALSE,FALSE
+425,10493379,5,โรงพยาบาลเกษมราษฎร์ ประชาชื่น,145,โรงพยาบาลกรุงเทพสนามจันทร์,26,null,null,null,null,Y,N,N,N,N,FALSE,TRUE,FALSE
+426,10500243,6,โรงพยาบาลเกษมราษฎร์ บางแค,146,โรงพยาบาลเซนต์แมรี่,27,null,null,null,null,Y,N,N,N,N,FALSE,FALSE,TRUE
+427,10502482,7,โรงพยาบาลเกษมราษฎร์ รามคำแหง,147,โรงพยาบาลกรุงเทพราชสีมา,28,null,null,null,null,Y,N,N,N,N,TRUE,FALSE,FALSE
+428,10504001,8,โรงพยาบาลคามิลเลียน,148,โรงพยาบาลกรุงเทพปากช่อง,29,null,null,null,null,Y,N,N,N,N,FALSE,TRUE,FALSE
+429,10504392,9,โรงพยาบาลคลองตัน,149,โรงพยาบาลมหาวิทยาลัยเทคโนโลยีสุรนารี,30,null,null,null,null,Y,N,N,N,N,FALSE,FALSE,TRUE
+430,10504432,10,โรงพยาบาลสมิติเวชไชน่าทาวน์,150,โรงพยาบาลมหาราชนครศรีธรรมราช,31,null,null,null,null,Y,N,N,N,N,TRUE,FALSE,FALSE
+431,10504480,11,โรงพยาบาลเจ้าพระยา,151,โรงพยาบาลสิชล,32,null,null,null,null,Y,N,N,N,N,FALSE,TRUE,FALSE
+432,10504664,12,โรงพยาบาลเจริญกรุงประชารักษ์,152,โรงพยาบาลนครินทร์,33,null,null,null,null,Y,N,N,N,N,FALSE,FALSE,TRUE
+433,10504717,13,โรงพยาบาลจุฬาลงกรณ์ สภากาชาดไทย,153,โรงพยาบาลค่ายวชิราวุธ,34,null,null,null,null,Y,N,N,N,N,TRUE,FALSE,FALSE
+434,10504818,14,โรงพยาบาลจุฬาภรณ์,154,โรงพยาบาลนครพัฒน์,35,null,null,null,null,Y,N,N,N,N,FALSE,TRUE,FALSE
+435,10504954,15,โรงพยาบาลเซนต์หลุยส์,155,โรงพยาบาลรวมแพทย์ นครสวรรค์,36,null,null,null,null,Y,N,N,N,N,FALSE,FALSE,TRUE
+436,10505034,16,โรงพยาบาลซีจีเอช,156,โรงพยาบาลปากน้ำโพ,37,null,null,null,null,Y,N,N,N,N,TRUE,FALSE,FALSE
+437,10505051,17,โรงพยาบาลกรุงสยามเซนต์คาร์ลอส,157,โรงพยาบาลร่มฉัตร,38,null,null,null,null,Y,N,N,N,N,FALSE,TRUE,FALSE
+438,10505063,18,โรงพยาบาลตำรวจ,158,โรงพยาบาลปากน้ำโพ 2,39,null,null,null,null,Y,N,N,N,N,FALSE,FALSE,TRUE
+439,10505068,19,โรงพยาบาลตากสิน กรุงเทพมหานคร,159,โรงพยาบาลศรีสวรรค์,40,null,null,null,null,Y,N,N,N,N,TRUE,FALSE,FALSE

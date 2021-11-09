@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="280" it="0" lt="280" ct="199" ts="1618909356413" s="true" lb="token Authorization Bearer" rc="200" rm="OK" tn="token_PRE 1-1" dt="text" by="584" sby="469" ng="1" na="1">
+  <assertionResult>
+    <name>BeanShell Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Tue, 20 Apr 2021 09:02:36 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Frame-Options: DENY
+Cache-Control: no-store
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+X-Content-Type-Options: nosniff
+Pragma: no-cache
+X-XSS-Protection: 1; mode=block
+Access-Control-Allow-Headers: authorization,Access-Control-Allow-Origin,Content-Type,SOAPAction
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Accept: application/json, text/plain, */*
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate, br
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+Content-Length: 111
+Host: pre-tlprompt-api.thailife.com:8243
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;access_token&quot;:&quot;779624e1-1ec4-34b2-842c-9f7642ddfebf&quot;,&quot;scope&quot;:&quot;am_application_scope default&quot;,&quot;token_type&quot;:&quot;Bearer&quot;,&quot;expires_in&quot;:477124}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">grant_type=client_credentials&amp;client_secret=YB68rZljM9c32x2r88G9yrAvaGEa&amp;client_id=1jFxkCVTWdrDyOqch4P4pTLlhuwa</queryString>
+  <java.net.URL>https://pre-tlprompt-api.thailife.com:8243/token</java.net.URL>
+</httpSample>
+<httpSample t="284" it="0" lt="284" ct="106" ts="1618909356748" s="true" lb="insertDimMasterService" rc="200" rm="" tn="Dim 1-1" dt="text" by="1713" sby="398" ng="1" na="1">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 
+Date: Tue, 20 Apr 2021 09:02:37 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: DELETE,POST,PATCH,PUT,GET
+Set-Cookie: JSESSIONID=7F992AA6AF01EB6EF5E84F4484651FC7; Path=/TLPromptBackendWs; HttpOnly
+Access-Control-Allow-Headers: authorization,Access-Control-Allow-Origin,Content-Type,SOAPAction
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Accept: application/json, text/plain, */*
+Authorization: Bearer 779624e1-1ec4-34b2-842c-9f7642ddfebf
+Content-Type: application/json
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+Host: pre-tlprompt-api.thailife.com:8243
+</requestHeader>
+  <responseData class="java.lang.String">[{&quot;no&quot;:20618,&quot;applicationid&quot;:&quot;135095&quot;,&quot;scanno&quot;:&quot;&quot;,&quot;dimdoctype&quot;:&quot;100205&quot;,&quot;dimdocdesc&quot;:&quot;บัตรประจำตัวประชาชน&quot;,&quot;workspace&quot;:&quot;workspace://SpacesStore/4cbd48cd-328a-42b6-9b17-409528e0123d&quot;,&quot;dimdetailstatus&quot;:&quot;pass&quot;,&quot;dimservice&quot;:&quot;new&quot;,&quot;createdate&quot;:1618909374348,&quot;updatedate&quot;:1618909374348,&quot;masterseq&quot;:1},{&quot;no&quot;:20619,&quot;applicationid&quot;:&quot;135095&quot;,&quot;scanno&quot;:&quot;&quot;,&quot;dimdoctype&quot;:&quot;100101&quot;,&quot;dimdocdesc&quot;:&quot;ใบคำขอ&quot;,&quot;workspace&quot;:&quot;workspace://SpacesStore/20811722-2281-4bfb-b547-daed1e59e850&quot;,&quot;dimdetailstatus&quot;:&quot;pass&quot;,&quot;dimservice&quot;:&quot;new&quot;,&quot;createdate&quot;:1618909374349,&quot;updatedate&quot;:1618909374349,&quot;masterseq&quot;:1},{&quot;no&quot;:20620,&quot;applicationid&quot;:&quot;135095&quot;,&quot;scanno&quot;:&quot;&quot;,&quot;dimdoctype&quot;:&quot;100202&quot;,&quot;dimdocdesc&quot;:&quot;เอกสารลายเซ็นต์ ผู้เอาประกัน&quot;,&quot;workspace&quot;:&quot;workspace://SpacesStore/613f7bd8-fe2a-478c-929c-913600ce5c0f&quot;,&quot;dimdetailstatus&quot;:&quot;pass&quot;,&quot;dimservice&quot;:&quot;new&quot;,&quot;createdate&quot;:1618909374350,&quot;updatedate&quot;:1618909374350,&quot;masterseq&quot;:1},{&quot;no&quot;:20621,&quot;applicationid&quot;:&quot;135095&quot;,&quot;scanno&quot;:&quot;&quot;,&quot;dimdoctype&quot;:&quot;100104&quot;,&quot;dimdocdesc&quot;:&quot;ใบเสนอขาย&quot;,&quot;workspace&quot;:&quot;workspace://SpacesStore/df48fc44-40ff-4b1b-bfd7-5cb073242d8d&quot;,&quot;dimdetailstatus&quot;:&quot;pass&quot;,&quot;dimservice&quot;:&quot;new&quot;,&quot;createdate&quot;:1618909374350,&quot;updatedate&quot;:1618909374350,&quot;masterseq&quot;:1}]</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://pre-tlprompt-api.thailife.com:8243/TLPromptBackendWs/1.0/rest/dim/insertDimMasterService/135095</java.net.URL>
+</httpSample>
+
+</testResults>
